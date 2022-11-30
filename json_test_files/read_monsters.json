@@ -1,0 +1,2367 @@
+[
+  {
+    "new_name": "Drake Slime",
+    "old_name": "DrakSlime",
+    "description": "Moves & jumps with its tail and wings",
+    "family_id": 1,
+    "id": 1,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Mottle Slime",
+    "old_name": "SpotSlime",
+    "description": "Larger than a regular slime & spotted",
+    "family_id": 1,
+    "id": 2,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Wing Slime",
+    "old_name": "WingSlime",
+    "description": "Flies with wings that grew on its back",
+    "family_id": 1,
+    "id": 3,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Tree slime",
+    "old_name": "TreeSlime",
+    "description": "Its leafy top absorbs energy from sunlight",
+    "family_id": 1,
+    "id": 4,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Shell Slime",
+    "old_name": "Snaily",
+    "description": "Hides in its shell when under attack",
+    "family_id": 1,
+    "id": 5,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Slime Knight",
+    "old_name": "SlimeNite",
+    "description": "The knight riding on this slime is part of it's body",
+    "family_id": 1,
+    "id": 6,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Bubble Slime",
+    "old_name": "Babble",
+    "description": "Can transform its body into any shape",
+    "family_id": 1,
+    "id": 7,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Box Slime",
+    "old_name": "BoxSlime",
+    "description": "Being trapped in a box gives this slime it's shape",
+    "family_id": 1,
+    "id": 8,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Slime",
+    "old_name": "Slime",
+    "description": "The most abundant of this popular specie",
+    "family_id": 1,
+    "id": 9,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Healslime",
+    "old_name": "Healer",
+    "description": "Uses its powerful tentacles to move about",
+    "family_id": 1,
+    "id": 10,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Wild slime",
+    "old_name": "FangSlime",
+    "description": "Has a red Mohawk and is very brave & proud",
+    "family_id": 1,
+    "id": 11,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Rubble slime",
+    "old_name": "RockSlime",
+    "description": "Its skin is as hard as rock",
+    "family_id": 1,
+    "id": 12,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Cyber slime",
+    "old_name": "SlimeBorg",
+    "description": "Oil flows through its body instead of blood",
+    "family_id": 1,
+    "id": 13,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Slabbit",
+    "old_name": "Slabbit",
+    "description": "Flees very fast with its strong hind legs",
+    "family_id": 1,
+    "id": 14,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Mottle king slime",
+    "old_name": "SpotKing",
+    "description": "Several SpotSlimes combined into one to form this King",
+    "family_id": 1,
+    "id": 15,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "King slime",
+    "old_name": "KingSlime",
+    "description": "Several Slimes combined into one to form this King",
+    "family_id": 1,
+    "id": 16,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Metal Slime",
+    "old_name": "Metaly",
+    "description": "Its diet of iron gives this slime a metal body",
+    "family_id": 1,
+    "id": 17,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Liquid Metal Slime",
+    "old_name": "Metabble",
+    "description": "Produces strong weapons from its body",
+    "family_id": 1,
+    "id": 18,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Metal king slime",
+    "old_name": "MetalKing",
+    "description": "Several Metalys combined to form this King",
+    "family_id": 1,
+    "id": 19,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Gem slime",
+    "old_name": "GoldSlime",
+    "description": "The toughest creature in the slime family",
+    "family_id": 1,
+    "id": 20,
+    "family": {
+      "family_eng": "SLIME",
+      "id": 1
+    }
+  },
+  {
+    "new_name": "Small fry",
+    "old_name": "DragonKid",
+    "description": "It does not grow any bigger than this",
+    "family_id": 2,
+    "id": 21,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Wyrtle",
+    "old_name": "Tortragon",
+    "description": "It has a tough shell but it can't hide inside it",
+    "family_id": 2,
+    "id": 22,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Pteranodon",
+    "old_name": "Pteranod",
+    "description": "Flaps its large wings and flies with authority",
+    "family_id": 2,
+    "id": 23,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Gasbagon",
+    "old_name": "Gasgon",
+    "description": "Traps gas in its belly to float in the air",
+    "family_id": 2,
+    "id": 24,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Damselfly",
+    "old_name": "FairyDrak",
+    "description": "Uses its tongue to suck nectar from flowers",
+    "family_id": 2,
+    "id": 25,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Mandrake major",
+    "old_name": "LizardMan",
+    "description": "Smart enough to skillfully use a sword & shield",
+    "family_id": 2,
+    "id": 26,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Killer gila",
+    "old_name": "Poisongon",
+    "description": "The fluid that is secreted from its fin is poisonous",
+    "family_id": 2,
+    "id": 27,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Swordgon",
+    "old_name": "Swordgon",
+    "description": "Its body is covered with sword-like spikes",
+    "family_id": 2,
+    "id": 28,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Dragon",
+    "old_name": "Dragon",
+    "description": "The oldest living species of dragon",
+    "family_id": 2,
+    "id": 29,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Komodo",
+    "old_name": "MiniDrak",
+    "description": "Runs by using its hands & long tail for balance",
+    "family_id": 2,
+    "id": 30,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Drag-goof",
+    "old_name": "MadDragon",
+    "description": "Runs by using its hands & long tail for balance",
+    "family_id": 2,
+    "id": 31,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Wyvern",
+    "old_name": "Rayburn",
+    "description": "Can grab prey with its talons & fly off",
+    "family_id": 2,
+    "id": 32,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Biguana",
+    "old_name": "Chamelgon",
+    "description": "Changes its skin color for camouflage",
+    "family_id": 2,
+    "id": 33,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Dragonfry",
+    "old_name": "LizardFly",
+    "description": "Hovers in midair with its thin wings",
+    "family_id": 2,
+    "id": 34,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Rashaverak",
+    "old_name": "Andreal",
+    "description": "Sharp claws & fangs are its most deadly weapons",
+    "family_id": 2,
+    "id": 35,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Cobra king",
+    "old_name": "KingCobra",
+    "description": "Its poisonous bite and sharp fangs are deadly",
+    "family_id": 2,
+    "id": 36,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Tortoceratops",
+    "old_name": "Spikerous",
+    "description": "Its spiky hard shell protects itself from danger",
+    "family_id": 2,
+    "id": 37,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Great dragon",
+    "old_name": "GreatDrak",
+    "description": "The biggest dragon in the dragon family",
+    "family_id": 2,
+    "id": 38,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Crested viper",
+    "old_name": "Crestpent",
+    "description": "It shakes its crest to terrorize its enemies",
+    "family_id": 2,
+    "id": 39,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Flython",
+    "old_name": "WingSnake",
+    "description": "Glides through the air with its large wings",
+    "family_id": 2,
+    "id": 40,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Coatol",
+    "old_name": "Coatol",
+    "description": "Constricts its enemies with its powerful body",
+    "family_id": 2,
+    "id": 41,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Orochi",
+    "old_name": "Orochi",
+    "description": "Its 5 heads can do different things at the same time",
+    "family_id": 2,
+    "id": 42,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Hacksaurus",
+    "old_name": "BattleRex",
+    "description": "Attacks by swinging its powerful giant ax",
+    "family_id": 2,
+    "id": 43,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Ethereal serpent",
+    "old_name": "Skydragon",
+    "description": "Floats freely in midair with its magical powers",
+    "family_id": 2,
+    "id": 44,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Xenlon",
+    "old_name": "Divinegon",
+    "description": "If you defeat it, your wish will be granted",
+    "family_id": 2,
+    "id": 45,
+    "family": {
+      "family_eng": "DRAGON",
+      "id": 2
+    }
+  },
+  {
+    "new_name": "Poxtongue",
+    "old_name": "Tonguella",
+    "description": "Moves slowly but its long tongue is deadly",
+    "family_id": 3,
+    "id": 46,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Spiked hare",
+    "old_name": "Almiraj",
+    "description": "When cornered, it charges with its sharp horns",
+    "family_id": 3,
+    "id": 47,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Vampire cat",
+    "old_name": "CatFly",
+    "description": "Can see in the dark and preys at night",
+    "family_id": 3,
+    "id": 48,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Feralball",
+    "old_name": "PillowRat",
+    "description": "Soft & fluffy fur covers its body",
+    "family_id": 3,
+    "id": 49,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Bagworm",
+    "old_name": "Saccer",
+    "description": "Lives in a sack made out of branches",
+    "family_id": 3,
+    "id": 50,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Drackal",
+    "old_name": "GulpBeast",
+    "description": "It devours its prey in one big gulp",
+    "family_id": 3,
+    "id": 51,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Guaardvark",
+    "old_name": "Skullroo",
+    "description": "Attacks by throwing skulls at its enemies",
+    "family_id": 3,
+    "id": 52,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Cyclown",
+    "old_name": "WindBeast",
+    "description": "Creates tornadoes with its legs to defend itself",
+    "family_id": 3,
+    "id": 53,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Antguzzler",
+    "old_name": "Anteater",
+    "description": "Uses its tongue to attack & snare prey",
+    "family_id": 3,
+    "id": 54,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Sluggernaut",
+    "old_name": "SuperTen",
+    "description": "It likes to show off its dance moves",
+    "family_id": 3,
+    "id": 55,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Armoured wartoise",
+    "old_name": "IronTurt",
+    "description": "Its spiked shell makes its body slam attack deadly",
+    "family_id": 3,
+    "id": 56,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Platypunk",
+    "old_name": "Mommonja",
+    "description": "It follows you like a dog",
+    "family_id": 3,
+    "id": 57,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Hammerhood",
+    "old_name": "HammerMan",
+    "description": "It has a hammer bigger than itself",
+    "family_id": 3,
+    "id": 58,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Ursa major",
+    "old_name": "Grizzly",
+    "description": "Uses its strong arms to squeeze its prey",
+    "family_id": 3,
+    "id": 59,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Powie yowie",
+    "old_name": "Yeti",
+    "description": "Its body is covered with a thick fur",
+    "family_id": 3,
+    "id": 60,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Mad mole",
+    "old_name": "MadGopher",
+    "description": "It can dig very deep holes with its shovel",
+    "family_id": 3,
+    "id": 61,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Mousenap",
+    "old_name": "FairyRat",
+    "description": "Its ears act as wings allowing it to fly",
+    "family_id": 3,
+    "id": 62,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Eewnicorn",
+    "old_name": "Unicorn",
+    "description": "Its horn is used to make medicines",
+    "family_id": 3,
+    "id": 63,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Rampage",
+    "old_name": "Goategon",
+    "description": "Charges enemies with its sharp & twisted horns",
+    "family_id": 3,
+    "id": 64,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Wackanape",
+    "old_name": "WildApe",
+    "description": "Lives in groups with one dominant male boss",
+    "family_id": 3,
+    "id": 65,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Eyevory tusk-tusk",
+    "old_name": "Trumpeter",
+    "description": "Its tusks are used to create craft work",
+    "family_id": 3,
+    "id": 66,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Marquis de Leon",
+    "old_name": "KingLeo",
+    "description": "Uses its 4 hands & 4 arms skillfully in combat",
+    "family_id": 3,
+    "id": 67,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Battering Ram",
+    "old_name": "DarkHorn",
+    "description": "Its pelt commands a high price",
+    "family_id": 3,
+    "id": 68,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Great sabrecat",
+    "old_name": "MadCat",
+    "description": "Moves very swiftly to catch its prey",
+    "family_id": 3,
+    "id": 69,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Cross eye",
+    "old_name": "BigEye",
+    "description": "Looks up at the sky & dozes off all day",
+    "family_id": 3,
+    "id": 70,
+    "family": {
+      "family_eng": "BEAST",
+      "id": 3
+    }
+  },
+  {
+    "new_name": "Bludgerigar",
+    "old_name": "Picky",
+    "description": "It's flightless but it can run quickly",
+    "family_id": 4,
+    "id": 71,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Chimaera",
+    "old_name": "Wyvern",
+    "description": "It has an eagle's head & a body of a serpent",
+    "family_id": 4,
+    "id": 72,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Bullfinch",
+    "old_name": "BullBird",
+    "description": "Sleeps right after it makes a kill",
+    "family_id": 4,
+    "id": 73,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Kingfuchsia",
+    "old_name": "Florajay",
+    "description": "Its flower like face lures bugs to their doom",
+    "family_id": 4,
+    "id": 74,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Quack up",
+    "old_name": "DuckKite",
+    "description": "Spreads its wings to make itself look bigger",
+    "family_id": 4,
+    "id": 75,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Weaken beakon",
+    "old_name": "MadPecker",
+    "description": "Rips flesh from its prey with its strong beak",
+    "family_id": 4,
+    "id": 76,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Stark raven",
+    "old_name": "MadRaven",
+    "description": "Attacks by dropping skulls from the air",
+    "family_id": 4,
+    "id": 77,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Mistywing",
+    "old_name": "MistyWing",
+    "description": "Its mist like body glows pinkish in the dark",
+    "family_id": 4,
+    "id": 78,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Dracky",
+    "old_name": "Dracky",
+    "description": "Prefers darkness and sucks blood with its fangs",
+    "family_id": 4,
+    "id": 79,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Batanmaweight",
+    "old_name": "BigRoost",
+    "description": "Its firm flesh is good eating",
+    "family_id": 4,
+    "id": 80,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Crested loon",
+    "old_name": "StubBird",
+    "description": "A very stubborn bird",
+    "family_id": 4,
+    "id": 81,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Growlbear",
+    "old_name": "LandOwl",
+    "description": "A flightless owl with strong talons and sharp claws",
+    "family_id": 4,
+    "id": 82,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Deadly dodo",
+    "old_name": "MadGoose",
+    "description": "A migratory bird that can be very violent",
+    "family_id": 4,
+    "id": 83,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Hades condor",
+    "old_name": "MadCondor",
+    "description": "It has big wings, deadly sharp claws & a powerful beak",
+    "family_id": 4,
+    "id": 84,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Snowbird",
+    "old_name": "Blizzardy",
+    "description": "Breathes out freezing air to defeat its prey",
+    "family_id": 4,
+    "id": 85,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Firebird",
+    "old_name": "Phoenix",
+    "description": "Roasts its prey with its fiery breath",
+    "family_id": 4,
+    "id": 86,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Thunderbird",
+    "old_name": "ZapBird",
+    "description": "Attacks with the thundercloud that covers its body",
+    "family_id": 4,
+    "id": 87,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Whipbird",
+    "old_name": "WhipBird",
+    "description": "Attacks with its whip-like legs & knife-like claws",
+    "family_id": 4,
+    "id": 88,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Funkybird",
+    "old_name": "FunkyBird",
+    "description": "Likes to dance & sing",
+    "family_id": 4,
+    "id": 89,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Prism peacock",
+    "old_name": "RainHawk",
+    "description": "It has 4 strong legs & a pair of powerful wings",
+    "family_id": 4,
+    "id": 90,
+    "family": {
+      "family_eng": "BIRD",
+      "id": 4
+    }
+  },
+  {
+    "new_name": "Mental pitcher",
+    "old_name": "MadPlant",
+    "description": "Secretes sweet sap to attract bugs",
+    "family_id": 5,
+    "id": 91,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Flame flower",
+    "old_name": "FireWeed",
+    "description": "Its flame breath is its deadly weapon",
+    "family_id": 5,
+    "id": 92,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Budding sorcerer",
+    "old_name": "FloraMan",
+    "description": "Can live several hundred years and is very wise",
+    "family_id": 5,
+    "id": 93,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Monolog",
+    "old_name": "WingTree",
+    "description": "Stores gas inside its body to float in the air",
+    "family_id": 5,
+    "id": 94,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "CactiBall",
+    "old_name": "CactiBall",
+    "description": "Stores water inside the body to survive in deserts",
+    "family_id": 5,
+    "id": 95,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Bad apple",
+    "old_name": "Gulpple",
+    "description": "Gulps up the monsters to stock up on its evil powers",
+    "family_id": 5,
+    "id": 96,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Morphean mushroom",
+    "old_name": "Toadstool",
+    "description": "Plants its spores on its prey to multiply",
+    "family_id": 5,
+    "id": 97,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "AmberWeed",
+    "old_name": "AmberWeed",
+    "description": "Secretes sap that hardens its body",
+    "family_id": 5,
+    "id": 98,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Stump Chump",
+    "old_name": "Stubsuck",
+    "description": "Uses its roots to suck out the preys bodily fluid",
+    "family_id": 5,
+    "id": 99,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Ornery onion",
+    "old_name": "Oniono",
+    "description": "Grows out its roots when its ready to breed",
+    "family_id": 5,
+    "id": 100,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Wild carrot",
+    "old_name": "DanceVegi",
+    "description": "Its bad balance forces it to walk like its dancing",
+    "family_id": 5,
+    "id": 101,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Tree feller",
+    "old_name": "TreeBoy",
+    "description": "A spirit that lives in a very old tree",
+    "family_id": 5,
+    "id": 102,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Treeface",
+    "old_name": "FaceTree",
+    "description": "Its roots suck evil power from the ground",
+    "family_id": 5,
+    "id": 103,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "HerbMan",
+    "old_name": "HerbMan",
+    "description": "Its roots can be used to make a cure medicine",
+    "family_id": 5,
+    "id": 104,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Beanie meanie",
+    "old_name": "BeanMan",
+    "description": "Travels to find a place to plant its seeds",
+    "family_id": 5,
+    "id": 105,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "EvilSeed",
+    "old_name": "EvilSeed",
+    "description": "Clings on its host with its tentacles",
+    "family_id": 5,
+    "id": 106,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Chewlip",
+    "old_name": "ManEater",
+    "description": "Dissolves its prey with its digestive acid",
+    "family_id": 5,
+    "id": 107,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Carnivine",
+    "old_name": "Snapper",
+    "description": "The 3 buds sink their teeth into its prey",
+    "family_id": 5,
+    "id": 108,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Gripevine",
+    "old_name": "Rosevine",
+    "description": "Squeezes its prey with its thorny vines",
+    "family_id": 5,
+    "id": 109,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Watabou",
+    "old_name": "Watabou",
+    "description": "A mischievous mystical creature",
+    "family_id": 5,
+    "id": 110,
+    "family": {
+      "family_eng": "PLANT",
+      "id": 5
+    }
+  },
+  {
+    "new_name": "Maulusc",
+    "old_name": "GiantSlug",
+    "description": "Its mucus contains digestive enzymes",
+    "family_id": 6,
+    "id": 111,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Killerpillar",
+    "old_name": "Catapila",
+    "description": "This caterpillar does not grow to become a moth",
+    "family_id": 6,
+    "id": 112,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Boring bug",
+    "old_name": "Gophecada",
+    "description": "Since it lives underground, it hates light",
+    "family_id": 6,
+    "id": 113,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Batterfly",
+    "old_name": "Butterfly",
+    "description": "Powder on its wings have hallucinogenic effect",
+    "family_id": 6,
+    "id": 114,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "WeedBug",
+    "old_name": "WeedBug",
+    "description": "Its weed-top sucks up energy & emits evil power",
+    "family_id": 6,
+    "id": 115,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Wiggly",
+    "old_name": "GiantWorm",
+    "description": "Finds its prey with its acute sense of smell",
+    "family_id": 6,
+    "id": 116,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Lips",
+    "old_name": "Lipsy",
+    "description": "Paralyzes its prey with its deadly kiss",
+    "family_id": 6,
+    "id": 117,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Scissor beatle",
+    "old_name": "StagBug",
+    "description": "Repels attacks with its hard shell",
+    "family_id": 6,
+    "id": 118,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Army ant",
+    "old_name": "ArmyAnt",
+    "description": "Its body is small, but its jaw is powerful",
+    "family_id": 6,
+    "id": 119,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Walking stick",
+    "old_name": "GoHopper",
+    "description": "Makes a weird sound when it flies",
+    "family_id": 6,
+    "id": 120,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Mad mollusk",
+    "old_name": "TailEater",
+    "description": "Sucks on its prey with its tail-like mouth",
+    "family_id": 6,
+    "id": 121,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Sentripede",
+    "old_name": "ArmorPede",
+    "description": "A shell protects its back but not its belly",
+    "family_id": 6,
+    "id": 122,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Lunatick",
+    "old_name": "Eyeder",
+    "description": "Each tentacle has a specific function",
+    "family_id": 6,
+    "id": 123,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Giant moth",
+    "old_name": "GiantMoth",
+    "description": "Creates a violent wind with its huge wings",
+    "family_id": 6,
+    "id": 124,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Drohl drone",
+    "old_name": "Droll",
+    "description": "Protruding eyes gives a large field of vision",
+    "family_id": 6,
+    "id": 125,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Crabid",
+    "old_name": "ArmyCrab",
+    "description": "Attacks in a group & cuts up its prey with its claws",
+    "family_id": 6,
+    "id": 126,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Hell hornet",
+    "old_name": "MadHornet",
+    "description": "Paralyzes its prey with its sting",
+    "family_id": 6,
+    "id": 127,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "HornBeet",
+    "old_name": "HornBeet",
+    "description": "Charges its prey with its big horn",
+    "family_id": 6,
+    "id": 128,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Armoured scorpion",
+    "old_name": "Armorpion",
+    "description": "Unprotected joints are its weakness",
+    "family_id": 6,
+    "id": 129,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Digster",
+    "old_name": "Digster",
+    "description": "Digs caves to live in a dark humid home",
+    "family_id": 6,
+    "id": 130,
+    "family": {
+      "family_eng": "BUG",
+      "id": 6
+    }
+  },
+  {
+    "new_name": "Picksy",
+    "old_name": "Pixy",
+    "description": "Loves to play pranks with its magic spells",
+    "family_id": 7,
+    "id": 131,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Archdemon",
+    "old_name": "ArcDemon",
+    "description": "Too fat to fly but its strength is incredible",
+    "family_id": 7,
+    "id": 132,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Silvapithecus",
+    "old_name": "AgDevil",
+    "description": "Very quick witted & cunning",
+    "family_id": 7,
+    "id": 133,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Imp",
+    "old_name": "Demonite",
+    "description": "Smart but, lacks the power to cast big spells",
+    "family_id": 7,
+    "id": 134,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Eyelasher",
+    "old_name": "DarkEye",
+    "description": "Catches its prey with its tentacles",
+    "family_id": 7,
+    "id": 135,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Winky",
+    "old_name": "EyeBall",
+    "description": "Hunts with its large eye & fast two legs",
+    "family_id": 7,
+    "id": 136,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Skullrider",
+    "old_name": "SkulRider",
+    "description": "Revives dead beasts to use as slaves",
+    "family_id": 7,
+    "id": 137,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Sculptrice",
+    "old_name": "EvilBeast",
+    "description": "Trained hard to attain its evil strength",
+    "family_id": 7,
+    "id": 138,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Jinkster",
+    "old_name": "1EyeClown",
+    "description": "Uses its wand to cast evil spells",
+    "family_id": 7,
+    "id": 139,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Gremlin",
+    "old_name": "Gremlin",
+    "description": "Mischievous & likes to play tricks with traps",
+    "family_id": 7,
+    "id": 140,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Madusa",
+    "old_name": "MedusaEye",
+    "description": "A deadly ball of snakes with an eye in the center",
+    "family_id": 7,
+    "id": 141,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Hyperanemon",
+    "old_name": "Lionex",
+    "description": "A natural born evil fighter",
+    "family_id": 7,
+    "id": 142,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Moosifer",
+    "old_name": "GoatHorn",
+    "description": "A powerful monster with the horns & legs of a goat",
+    "family_id": 7,
+    "id": 143,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Orc",
+    "old_name": "Orc",
+    "description": "Its dense pelt acts as natural armor",
+    "family_id": 7,
+    "id": 144,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Ogre",
+    "old_name": "Ogre",
+    "description": "Its flail has a metal ball that's bigger than a man",
+    "family_id": 7,
+    "id": 145,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Grim keeper",
+    "old_name": "GateGuard",
+    "description": "Uses a scythe as tall as its own towering height",
+    "family_id": 7,
+    "id": 146,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Prickly prankster",
+    "old_name": "ChopClown",
+    "description": "Has achieved the utmost limit of swiftness",
+    "family_id": 7,
+    "id": 147,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Thwarthog",
+    "old_name": "Grendal",
+    "description": "Not too clever, but uses its weapons well",
+    "family_id": 7,
+    "id": 148,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Blackmar",
+    "old_name": "Akubar",
+    "description": "Combined evil power with superhuman strength",
+    "family_id": 7,
+    "id": 149,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Knight aberrant",
+    "old_name": "MadKnight",
+    "description": "Covered with armor that is never removed",
+    "family_id": 7,
+    "id": 150,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Gigantes",
+    "old_name": "Gigantes",
+    "description": "The biggest in the devil family, but not very smart",
+    "family_id": 7,
+    "id": 151,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Sintaur",
+    "old_name": "Centasaur",
+    "description": "A hybrid devil of man & beast",
+    "family_id": 7,
+    "id": 152,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Harmour",
+    "old_name": "EvilArmor",
+    "description": "Its real identity underneath the armor is unknown",
+    "family_id": 7,
+    "id": 153,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Jamirus",
+    "old_name": "Jamirus",
+    "description": "A hybrid devil of an eagle & a lion",
+    "family_id": 7,
+    "id": 154,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Dhuran",
+    "old_name": "Durran",
+    "description": "A strong all-round natural born fighter.",
+    "family_id": 7,
+    "id": 155,
+    "family": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "new_name": "Ghost",
+    "old_name": "Spooky",
+    "description": "Its hobby is to scare people",
+    "family_id": 8,
+    "id": 156,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Skelegon",
+    "old_name": "Skullgon",
+    "description": "A dragon that's risen from the dead",
+    "family_id": 8,
+    "id": 157,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Putrefido",
+    "old_name": "Putrepup",
+    "description": "It's fearless since it doesn't feel any pain",
+    "family_id": 8,
+    "id": 158,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "RotRaven",
+    "old_name": "RotRaven",
+    "description": "Dozes all day in its half rotted body",
+    "family_id": 8,
+    "id": 159,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Mummy",
+    "old_name": "Mummy",
+    "description": "Its body is filled with herbs to prevent its decay",
+    "family_id": 8,
+    "id": 160,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "DarkCrab",
+    "old_name": "DarkCrab",
+    "description": "Its shell resembles a human face",
+    "family_id": 8,
+    "id": 161,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Skeleton soldier",
+    "old_name": "DeadNite",
+    "description": "Knight revived as a zombie, who never tires",
+    "family_id": 8,
+    "id": 162,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Shadow",
+    "old_name": "Shadow",
+    "description": "Real identity is unknown due to its shadow-like body",
+    "family_id": 8,
+    "id": 163,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Walking corpse",
+    "old_name": "Hork",
+    "description": "Its acidic saliva will dissolve anything",
+    "family_id": 8,
+    "id": 164,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Mudslinger",
+    "old_name": "Mudron",
+    "description": "A swamp mud infested spirit of the dead",
+    "family_id": 8,
+    "id": 165,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Will-o'-the-whips",
+    "old_name": "NiteWhip",
+    "description": "Flies in the air leaving a streak of light",
+    "family_id": 8,
+    "id": 166,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Soulspawn",
+    "old_name": "MadSpirit",
+    "description": "Lost spirits fused together",
+    "family_id": 8,
+    "id": 167,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Gustbluster",
+    "old_name": "WindMerge",
+    "description": "Strangely, there is nothing under its garment",
+    "family_id": 8,
+    "id": 168,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Mean spirit",
+    "old_name": "Reaper",
+    "description": "Guides dead spirits to the underworld",
+    "family_id": 8,
+    "id": 169,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Bone baron",
+    "old_name": "DeadNoble",
+    "description": "Rides on a horse & attacks enemies with its lance",
+    "family_id": 8,
+    "id": 170,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Wight king",
+    "old_name": "WhiteKing",
+    "description": "Has retained its high INT from when it was alive",
+    "family_id": 8,
+    "id": 171,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Marrow escapee",
+    "old_name": "BoneSlave",
+    "description": "Resurrected as a zombie to serve hard labor",
+    "family_id": 8,
+    "id": 172,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Skeleton swordsman",
+    "old_name": "Skeletor",
+    "description": "Attacks with a sword in each of its 6 hands",
+    "family_id": 8,
+    "id": 173,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Demon-at-arms",
+    "old_name": "Servant",
+    "description": "Created from evil powers, it has a high INT",
+    "family_id": 8,
+    "id": 174,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Float-o-copier",
+    "old_name": "Copycat",
+    "description": "Can disguise as any creature & mimic any move",
+    "family_id": 8,
+    "id": 175,
+    "family": {
+      "family_eng": "UNDEAD",
+      "id": 8
+    }
+  },
+  {
+    "new_name": "Goodybag",
+    "old_name": "JewelBag",
+    "description": "Likes to eat things that are precious & shiny",
+    "family_id": 9,
+    "id": 176,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Wraithwand",
+    "old_name": "EvilWand",
+    "description": "An evil spirit possessing a wizard's wand",
+    "family_id": 9,
+    "id": 177,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Wax murderer",
+    "old_name": "MadCandle",
+    "description": "Its candle will remain lit until it dies",
+    "family_id": 9,
+    "id": 178,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "CoilBird",
+    "old_name": "CoilBird",
+    "description": "Emits an eerie noise",
+    "family_id": 9,
+    "id": 179,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Teaky mask",
+    "old_name": "Facer",
+    "description": "An evil spirit has possessed this wooden mask",
+    "family_id": 9,
+    "id": 180,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Burr baby",
+    "old_name": "SpikyBoy",
+    "description": "Explodes when angered",
+    "family_id": 9,
+    "id": 181,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Devil glass",
+    "old_name": "MadMirror",
+    "description": "Absorbs anything that reflects on its mirror",
+    "family_id": 9,
+    "id": 182,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Restless armour",
+    "old_name": "RogueNite",
+    "description": "Life was brought to this armor & it roams for prey",
+    "family_id": 9,
+    "id": 183,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Muddy hand",
+    "old_name": "Goopi",
+    "description": "Grabs and paralyzes any prey that passes",
+    "family_id": 9,
+    "id": 184,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Pocus poppet",
+    "old_name": "Voodoll",
+    "description": "A clay doll brought to life",
+    "family_id": 9,
+    "id": 185,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Metal dragon",
+    "old_name": "MetalDrak",
+    "description": "A dragon constructed from metal",
+    "family_id": 9,
+    "id": 186,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Balzack",
+    "old_name": "Balzak",
+    "description": "A creature created to be the strongest monster",
+    "family_id": 9,
+    "id": 187,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Erazor blade",
+    "old_name": "SabreMan",
+    "description": "Fashioned with so much passion that it came to life",
+    "family_id": 9,
+    "id": 188,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Malevolantern",
+    "old_name": "CurseLamp",
+    "description": "Its been said that there is an evil genie in the lamp",
+    "family_id": 9,
+    "id": 189,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Killing machine",
+    "old_name": "Roboster",
+    "description": "Last surviving war robot made in an ancient time",
+    "family_id": 9,
+    "id": 190,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Urnexpected",
+    "old_name": "EvilPot",
+    "description": "Lurks in a pot to hide its identity",
+    "family_id": 9,
+    "id": 191,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Cumaulus",
+    "old_name": "Gismo",
+    "description": "Life was brought to this ball of energy",
+    "family_id": 9,
+    "id": 192,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Magmalice",
+    "old_name": "LavaMan",
+    "description": "It's composed of an energy core & magma",
+    "family_id": 9,
+    "id": 193,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Firn fiend",
+    "old_name": "IceMan",
+    "description": "It's composed of an energy core & ice",
+    "family_id": 9,
+    "id": 194,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Mimic",
+    "old_name": "Mimic",
+    "description": "Attacks anyone who tries to steal its treasure",
+    "family_id": 9,
+    "id": 195,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Mud mannequin",
+    "old_name": "MudDoll",
+    "description": "A kneaded dried clay doll that came to life",
+    "family_id": 9,
+    "id": 196,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Golem",
+    "old_name": "Golem",
+    "description": "A stack of rock bricks that came to life",
+    "family_id": 9,
+    "id": 197,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Living statue",
+    "old_name": "StoneMan",
+    "description": "A statue made from rock that came to life",
+    "family_id": 9,
+    "id": 198,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Rockbomb",
+    "old_name": "BombCrag",
+    "description": "Usually dormant & looks like a normal rock",
+    "family_id": 9,
+    "id": 199,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Balhib",
+    "old_name": "GoldGolem",
+    "description": "Made out of an elastic & durable metal",
+    "family_id": 9,
+    "id": 200,
+    "family": {
+      "family_eng": "MATERIAL",
+      "id": 9
+    }
+  },
+  {
+    "new_name": "Dragonlord",
+    "old_name": "DracoLord (Human)",
+    "description": "Tried to unite the monsters to rule the world",
+    "family_id": 10,
+    "id": 201,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Dragonlord (Dragon)",
+    "old_name": "DracoLord (Dragon)",
+    "description": "This is the true identity of DracoLord",
+    "family_id": 10,
+    "id": 202,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Hargon",
+    "old_name": "Hargon",
+    "description": "The one who planned to revive the Destructor",
+    "family_id": 10,
+    "id": 203,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Malroth",
+    "old_name": "Sidoh",
+    "description": "An evil dragon lord, ruler of all destruction",
+    "family_id": 10,
+    "id": 204,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Baramos",
+    "old_name": "Baramos",
+    "description": "This evil lord controls all monsters",
+    "family_id": 10,
+    "id": 205,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Zoma",
+    "old_name": "Zoma",
+    "description": "The source of all evil",
+    "family_id": 10,
+    "id": 206,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Psaro the Manslayer",
+    "old_name": "Pizzaro",
+    "description": "Attained its power from the pearl of evolution",
+    "family_id": 10,
+    "id": 207,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Estark",
+    "old_name": "Esterk",
+    "description": "Exists beyond the boundries of time and space",
+    "family_id": 10,
+    "id": 208,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Nimzo1",
+    "old_name": "Mirudraas1",
+    "description": "An evil lord who tried to rule the human world",
+    "family_id": 10,
+    "id": 209,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Nimzo2",
+    "old_name": "Mirudraas2",
+    "description": "This is the true identity of Mirudrass",
+    "family_id": 10,
+    "id": 210,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Murdaw",
+    "old_name": "Mudou",
+    "description": "This evil lord controls all monsters",
+    "family_id": 10,
+    "id": 211,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Mortamor1",
+    "old_name": "DeathMore 1",
+    "description": "An evil lord that lives between reality & fantasy",
+    "family_id": 10,
+    "id": 212,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Mortamor2",
+    "old_name": "DeathMore 2",
+    "description": "Shed off its disguise to show off its strength",
+    "family_id": 10,
+    "id": 213,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Mortamor3",
+    "old_name": "DeathMore 3",
+    "description": "Only a true warrior can reveal its real identity",
+    "family_id": 10,
+    "id": 214,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  },
+  {
+    "new_name": "Nokturnus",
+    "old_name": "Darkdrium",
+    "description": "The master of destruction & carnage",
+    "family_id": 10,
+    "id": 215,
+    "family": {
+      "family_eng": "???",
+      "id": 10
+    }
+  }
+]

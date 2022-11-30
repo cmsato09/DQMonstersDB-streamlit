@@ -1,0 +1,61 @@
+{
+  "new_name": "Shell Slime",
+  "old_name": "Snaily",
+  "description": "Hides in its shell when under attack",
+  "family_id": 1,
+  "id": 5,
+  "family": {
+    "family_eng": "SLIME",
+    "id": 1
+  },
+  "skills": [
+    {
+      "category_type": "Attack",
+      "family_type": "Crack",
+      "new_name": "Crack",
+      "old_name": "Icebolt",
+      "description": "Cold attack on all enemies",
+      "mp_cost": 3,
+      "required_level": 5,
+      "required_hp": null,
+      "required_mp": 16,
+      "required_attack": null,
+      "required_defense": null,
+      "required_speed": null,
+      "required_intelligence": 30,
+      "id": 25
+    },
+    {
+      "category_type": "Recovery",
+      "family_type": "Status recovery",
+      "new_name": "Tingle",
+      "old_name": "NumbOff",
+      "description": "Cures paralysis or wakes an ally",
+      "mp_cost": 2,
+      "required_level": 8,
+      "required_hp": null,
+      "required_mp": 30,
+      "required_attack": null,
+      "required_defense": null,
+      "required_speed": null,
+      "required_intelligence": 26,
+      "id": 146
+    },
+    {
+      "category_type": "Attack",
+      "family_type": "Help",
+      "new_name": "Call for backup",
+      "old_name": "CallHelp",
+      "description": "Calls for a backup",
+      "mp_cost": 4,
+      "required_level": 17,
+      "required_hp": 84,
+      "required_mp": 42,
+      "required_attack": null,
+      "required_defense": null,
+      "required_speed": 68,
+      "required_intelligence": 54,
+      "id": 37
+    }
+  ]
+}

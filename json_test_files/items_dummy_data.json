@@ -1,0 +1,425 @@
+[
+  {
+    "item_name": "Herb",
+    "item_description": "Restores around 30 HP",
+    "sell_price": 6,
+    "item_category": "recovery",
+    "price": 10,
+    "id": 1,
+    "sell_location": "Bazaar shop 1"
+  },
+  {
+    "item_name": "Lovewater",
+    "item_description": "Restores around 70 HP",
+    "sell_price": 60,
+    "item_category": "recovery",
+    "price": 80,
+    "id": 2,
+    "sell_location": "Bazaar shop 1"
+  },
+  {
+    "item_name": "Antidote",
+    "item_description": "Cures poison of one ally",
+    "sell_price": 8,
+    "item_category": "recovery",
+    "price": 10,
+    "id": 3,
+    "sell_location": "Bazaar shop 1"
+  },
+  {
+    "item_name": "Repellent",
+    "item_description": "Reduces monster encounters",
+    "sell_price": 150,
+    "item_category": "dungeon use",
+    "price": 200,
+    "id": 4,
+    "sell_location": "Bazaar shop 1"
+  },
+  {
+    "item_name": "BeefJerky",
+    "item_description": "Give to monster to tame during battle or reduce your own monster's WLD (wildness) by 5",
+    "sell_price": 15,
+    "item_category": "meat",
+    "price": 20,
+    "id": 5,
+    "sell_location": "Bazaar shop 1"
+  },
+  {
+    "item_name": "Porkchop",
+    "item_description": "Give to monster to tame during battle or reduce your own monster's WLD (wildness) by 10",
+    "sell_price": 60,
+    "item_category": "meat",
+    "price": 80,
+    "id": 6,
+    "sell_location": "Bazaar shop 1"
+  },
+  {
+    "item_name": "Warpwing",
+    "item_description": "Warp back to the castle immediately",
+    "sell_price": 75,
+    "item_category": "dungeon use",
+    "price": 100,
+    "id": 7,
+    "sell_location": "Bazaar shop 1"
+  },
+  {
+    "item_name": "BeastTail",
+    "item_description": "Points way to the mystic hole to the next floor",
+    "sell_price": 300,
+    "item_category": "dungeon use",
+    "price": 400,
+    "id": 8,
+    "sell_location": "Bazaar shop 1"
+  },
+  {
+    "item_name": "Potion",
+    "item_description": "Restores about 20 MP",
+    "sell_price": 150,
+    "item_category": "recovery",
+    "price": 200,
+    "id": 9,
+    "sell_location": "Bazaar shop 2"
+  },
+  {
+    "item_name": "WorldDew",
+    "item_description": "Completely restores HP of all allies",
+    "sell_price": 375,
+    "item_category": "recovery",
+    "price": 500,
+    "id": 10,
+    "sell_location": "Bazaar shop 2"
+  },
+  {
+    "item_name": "SageStone",
+    "item_description": "Restore around 65 HP per use. Has a chance to break after use.",
+    "sell_price": 750,
+    "item_category": "recovery",
+    "price": 1000,
+    "id": 11,
+    "sell_location": "Bazaar shop 2"
+  },
+  {
+    "item_name": "Worldleaf",
+    "item_description": "Revives one ally",
+    "sell_price": 750,
+    "item_category": "recovery",
+    "price": 1000,
+    "id": 12,
+    "sell_location": "Bazaar shop 2"
+  },
+  {
+    "item_name": "MapHerb",
+    "item_description": "Shows entire floor map",
+    "sell_price": 53,
+    "item_category": "dungeon use",
+    "price": 70,
+    "id": 13,
+    "sell_location": "Bazaar shop 2"
+  },
+  {
+    "item_name": "BookMark",
+    "item_description": "Able to save your progress in the dungeon field",
+    "sell_price": 75,
+    "item_category": "dungeon use",
+    "price": 100,
+    "id": 14,
+    "sell_location": "Bazaar shop 2"
+  },
+  {
+    "item_name": "Rib",
+    "item_description": "Give to monster to tame during battle or reduce your own monster's WLD (wildness) by 20",
+    "sell_price": 225,
+    "item_category": "meat",
+    "price": 300,
+    "id": 15,
+    "sell_location": "Bazaar shop 2"
+  },
+  {
+    "item_name": "MistStaff",
+    "item_description": "Stop enemies magic abilities. Has a chance to break after use.",
+    "sell_price": 70,
+    "item_category": "staff",
+    "price": 700,
+    "id": 16,
+    "sell_location": "Bazaar shop 2"
+  },
+  {
+    "item_name": "Sirloin",
+    "item_description": "Give to monster to tame during battle or reduce your own monster's WLD (wildness) by 100",
+    "sell_price": 750,
+    "item_category": "meat",
+    "price": 1000,
+    "id": 17,
+    "sell_location": "Bazaar shop 3"
+  },
+  {
+    "item_name": "ShinyHarp",
+    "item_description": "Immediately battle monsters when used",
+    "sell_price": 2225,
+    "item_category": "dungeon use",
+    "price": 3000,
+    "id": 18,
+    "sell_location": "Bazaar shop 3"
+  },
+  {
+    "item_name": "WindStaff",
+    "item_description": "Damage all enemies with whirlwind. Has a chance to break after use.",
+    "sell_price": 150,
+    "item_category": "staff",
+    "price": 1500,
+    "id": 19,
+    "sell_location": "Bazaar shop 3"
+  },
+  {
+    "item_name": "LavaStaff",
+    "item_description": "Damage all enemies with magma. Has a chance to break after use.",
+    "sell_price": 200,
+    "item_category": "staff",
+    "price": 2000,
+    "id": 20,
+    "sell_location": "Bazaar shop 3"
+  },
+  {
+    "item_name": "BoltStaff",
+    "item_description": "Damage all enemies with lightning bolt. Has a chance to break after use.",
+    "sell_price": 300,
+    "item_category": "staff",
+    "price": 3000,
+    "id": 21,
+    "sell_location": "Bazaar shop 3"
+  },
+  {
+    "item_name": "SnowStaff",
+    "item_description": "Damage all enemies with ice. Has a chance to break after use.",
+    "sell_price": 400,
+    "item_category": "staff",
+    "price": 4000,
+    "id": 22,
+    "sell_location": "Bazaar shop 3"
+  },
+  {
+    "item_name": "FireStaff",
+    "item_description": "Damage all enemies with fire. Has a chance to break after use. ",
+    "sell_price": 500,
+    "item_category": "staff",
+    "price": 5000,
+    "id": 23,
+    "sell_location": "Bazaar shop 3"
+  },
+  {
+    "item_name": "QuestBK",
+    "item_description": "Makes monster brave. Use multiple times to change personality",
+    "sell_price": 3750,
+    "item_category": "book",
+    "price": 5000,
+    "id": 24,
+    "sell_location": "Bazaar shop 4"
+  },
+  {
+    "item_name": "HorrorBK",
+    "item_description": "Makes monster cowardly. Use multiple times to change personality",
+    "sell_price": 3750,
+    "item_category": "book",
+    "price": 5000,
+    "id": 25,
+    "sell_location": "Bazaar shop 4"
+  },
+  {
+    "item_name": "BeNiceBK",
+    "item_description": "Makes monster gentle. Use multiple times to change personality",
+    "sell_price": 3750,
+    "item_category": "book",
+    "price": 5000,
+    "id": 26,
+    "sell_location": "Bazaar shop 4"
+  },
+  {
+    "item_name": "CheaterBK",
+    "item_description": "Makes monster cold. Use multiple times to change personality",
+    "sell_price": 3750,
+    "item_category": "book",
+    "price": 5000,
+    "id": 27,
+    "sell_location": "Bazaar shop 4"
+  },
+  {
+    "item_name": "SmartBK",
+    "item_description": "Makes monster think hard. Use multiple times to change personality",
+    "sell_price": 3750,
+    "item_category": "book",
+    "price": 5000,
+    "id": 28,
+    "sell_location": "Bazaar shop 4"
+  },
+  {
+    "item_name": "ComedyBK",
+    "item_description": "Makes monster goofy. Use multiple times to change personality",
+    "sell_price": 3750,
+    "item_category": "book",
+    "price": 5000,
+    "id": 29,
+    "sell_location": "Bazaar shop 4"
+  },
+  {
+    "item_name": "Herb",
+    "item_description": "Restores around 30 HP",
+    "sell_price": 6,
+    "item_category": "recovery",
+    "price": 10,
+    "id": 30,
+    "sell_location": "Field shop"
+  },
+  {
+    "item_name": "Lovewater",
+    "item_description": "Restores around 70 HP",
+    "sell_price": 60,
+    "item_category": "recovery",
+    "price": 80,
+    "id": 31,
+    "sell_location": "Field shop"
+  },
+  {
+    "item_name": "Antidote",
+    "item_description": "Cures poison of one ally",
+    "sell_price": 8,
+    "item_category": "recovery",
+    "price": 10,
+    "id": 32,
+    "sell_location": "Field shop"
+  },
+  {
+    "item_name": "Worldleaf",
+    "item_description": "Revives one ally",
+    "sell_price": 750,
+    "item_category": "recovery",
+    "price": 1000,
+    "id": 33,
+    "sell_location": "Field shop"
+  },
+  {
+    "item_name": "MoonHerb",
+    "item_description": "Cures paralysis of one ally",
+    "sell_price": 23,
+    "item_category": "recovery",
+    "price": 30,
+    "id": 34,
+    "sell_location": "Field shop"
+  },
+  {
+    "item_name": "AwakeSand",
+    "item_description": "Wakes an ally from sleep",
+    "sell_price": 38,
+    "item_category": "recovery",
+    "price": 50,
+    "id": 35,
+    "sell_location": "Field shop"
+  },
+  {
+    "item_name": "SkyBell",
+    "item_description": "Cures confusion of one ally",
+    "sell_price": 38,
+    "item_category": "recovery",
+    "price": 50,
+    "id": 36,
+    "sell_location": "Field shop"
+  },
+  {
+    "item_name": "Laurel",
+    "item_description": "Breaks curse of one ally",
+    "sell_price": 60,
+    "item_category": "recovery",
+    "price": 80,
+    "id": 37,
+    "sell_location": "Field shop"
+  },
+  {
+    "item_name": "LifeAcorn",
+    "item_description": "Increase max HP by 5",
+    "sell_price": 20,
+    "item_category": "seed",
+    "price": null,
+    "id": 38,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "MysticNut",
+    "item_description": "Increase max MP by 5",
+    "sell_price": 23,
+    "item_category": "seed",
+    "price": null,
+    "id": 39,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "ATKseed",
+    "item_description": "Increase ATK by 3",
+    "sell_price": 17,
+    "item_category": "seed",
+    "price": null,
+    "id": 40,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "DEFseed",
+    "item_description": "Increase DEF by 3",
+    "sell_price": 17,
+    "item_category": "seed",
+    "price": null,
+    "id": 41,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "AGLseed",
+    "item_description": "Increase AGL by 3",
+    "sell_price": 14,
+    "item_category": "seed",
+    "price": null,
+    "id": 42,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "INTseed",
+    "item_description": "Increase INT by 3",
+    "sell_price": 12,
+    "item_category": "seed",
+    "price": null,
+    "id": 43,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "Warpstaff",
+    "item_description": "Warp in front of the mystic hole to the next floor",
+    "sell_price": 10,
+    "item_category": "staff",
+    "price": 100,
+    "id": 44,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "BadMeat",
+    "item_description": "Give to monster to tame during battle and poisons them. Reduce your own monster's WLD (wildness) by 5 and poisons them",
+    "sell_price": null,
+    "item_category": "meat",
+    "price": null,
+    "id": 45,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "ElfWater",
+    "item_description": "Completely restores MP of one ally",
+    "sell_price": 1500,
+    "item_category": "recovery",
+    "price": 2000,
+    "id": 46,
+    "sell_location": "found in field"
+  },
+  {
+    "item_name": "Tiny medal",
+    "item_description": "Collect and give to medal master for a prize",
+    "sell_price": null,
+    "item_category": "dungeon use",
+    "price": null,
+    "id": 47,
+    "sell_location": "found in field"
+  }
+]
