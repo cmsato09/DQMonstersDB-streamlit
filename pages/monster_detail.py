@@ -1,7 +1,7 @@
 import json
 import streamlit as st
 
-st.markdown("# Monster Detail Info Page Example")
+st.markdown("## Monster Detail Info Page Example")
 
 with open('json_test_files/monsterandskill_example.json') as json_file:
     monster_data = json.load(json_file)
