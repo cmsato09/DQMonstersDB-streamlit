@@ -25,7 +25,7 @@ for monster in monster_list:
     idx = monster['id']
     name = monster['old_name']
     name_column.write(
-        f"<a href='monster_detail?id={idx}'>{name}</a>",
+        f"<a target='_self' href='monster_detail?id={idx}'>{name}</a>",
         unsafe_allow_html=True
     )
     family_column.write(monster['family']['family_eng'])
