@@ -7,10 +7,15 @@ API_GET_MONSTER_LIST = API_BASE + "/dqm1/monstersandskill/"
 API_GET_BREEDING_COMBO = API_BASE + "/breeding/"
 
 st.markdown("## Monster Detail Info Page Example")
-monster_id = st.number_input(
-    label="Input monster ID",
-    min_value=1, max_value=215
-)
+
+params = st.experimental_get_query_params()
+if "id" in params:
+    monster_id = params["id"][0]
+else:
+    monster_id = st.number_input(
+        label="Input monster ID",
+        min_value=1, max_value=215
+    )
 
 if monster_id:
     API_GET_MONSTER = API_GET_MONSTER_LIST + str(int(monster_id))
