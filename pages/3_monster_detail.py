@@ -1,6 +1,5 @@
-import json
 import streamlit as st
-from pages.monster_list import get_json_data
+from Home import get_json_data
 
 # FastAPI connection
 API_BASE = "http://localhost:8000"

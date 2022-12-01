@@ -1,8 +1,5 @@
-import json
-import requests
 import streamlit as st
-
-st.markdown("## Monster List")
+from Home import get_json_data
 
 # dummy data with test files
 # with open('json_test_files/read_monsters.json') as json_file:
@@ -11,21 +8,9 @@ st.markdown("## Monster List")
 # FastAPI connection
 API_BASE = "http://localhost:8000"
 API_GET_MONSTER_LIST = API_BASE + "/dqm1/monsters/"
-
-
-@st.cache
-def get_json_data(source) -> json:
-    """
-    Gets relevant JSON data from FastAPI endpoint
-    'source' == endpoint
-    """
-    response = requests.get(source)
-    response.raise_for_status()
-    return response.json()
-
-
 monster_list = get_json_data(API_GET_MONSTER_LIST)
 
+st.markdown("## Monster List")
 name_search = st.text_input("Search by Name")
 family_search = st.selectbox("Search by Family",
                              ['SLIME', 'DRAGON', 'BEAST', 'BIRD', 'PLANT',
