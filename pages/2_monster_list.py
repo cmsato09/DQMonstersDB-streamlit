@@ -22,5 +22,10 @@ name_column.subheader('Monster Name')
 family_column.subheader('Family Type')
 
 for monster in monster_list:
-    name_column.write(monster['old_name'])  # make this text hyperlinkable to detail page
+    idx = monster['id']
+    name = monster['old_name']
+    name_column.write(
+        f"<a target='_self' href='monster_detail?id={idx}'>{name}</a>",
+        unsafe_allow_html=True
+    )
     family_column.write(monster['family']['family_eng'])
