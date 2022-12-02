@@ -12,6 +12,19 @@ API_GET_ITEMS_LIST = API_BASE + "/dqm1/items/"
 
 st.markdown("## Items Table")
 item_data = get_json_data(API_GET_ITEMS_LIST)
-st.table(item_data)
-# problems --> integers are defaulting to float
-# also need to remove id column
+df = pd.DataFrame(item_data)
+
+df.rename(
+    columns={
+        'item_name': 'ITEM', 'item_category': 'CATEGORY',
+        'item_description': 'DESCRIPTION', 'price': 'PRICE',
+        'sell_price': 'SELL PRICE', 'sell_location': 'SHOP'},
+    inplace=True)
+
+df = df.fillna(0)
+df['PRICE'] = df['PRICE'].astype(int)
+df['SELL PRICE'] = df['SELL PRICE'].astype(int)
+
+item_selection = df[['ITEM', 'CATEGORY', 'DESCRIPTION', 'PRICE',
+                     'SELL PRICE', 'SHOP']]
+st.table(item_selection)
