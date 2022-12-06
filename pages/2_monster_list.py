@@ -1,17 +1,12 @@
 import streamlit as st
-from Home import get_json_data
+from helper_functions import APINames, get_monster_list
 
 # dummy data with test files
 # with open('json_test_files/read_monsters.json') as json_file:
 #     monster_list = json.load(json_file)
 
 # FastAPI connection
-API_BASE = "http://localhost:8000"
-API_GET_MONSTER_LIST = API_BASE + "/dqm1/monsters/"
-monster_list = get_json_data(API_GET_MONSTER_LIST)
-
-st.set_page_config(page_title="Monster List", layout="centered",
-                       initial_sidebar_state="collapsed")
+monster_list = get_monster_list(APINames.API_GET_MONSTER_LIST)
 
 st.markdown("## Monster List")
 name_search = st.text_input("Search by Name")

@@ -1,14 +1,5 @@
 import streamlit as st
-from Home import get_json_data
-
-# FastAPI connection
-API_BASE = "http://localhost:8000"
-API_GET_MONSTER_LIST = API_BASE + "/dqm1/monstersandskill/"
-API_GET_BREEDING_COMBO = API_BASE + "/breeding/"
-
-
-st.set_page_config(page_title="Monster Detail", layout="centered",
-                       initial_sidebar_state="collapsed")
+from helper_functions import APINames, _get_json_data
 
 st.markdown("## Monster Detail Info Page Example")
 
@@ -22,9 +13,8 @@ else:
     )
 
 if monster_id:
-    API_GET_MONSTER = API_GET_MONSTER_LIST + str(int(monster_id))
-    monster_data = get_json_data(API_GET_MONSTER)
-    breeding_data = get_json_data(API_GET_BREEDING_COMBO + str(int(monster_id)))
+    monster_data = _get_json_data(APINames.API_GET_MONSTER + str(int(monster_id)))
+    breeding_data = _get_json_data(APINames.API_GET_BREEDING_COMBO + str(int(monster_id)))
 
 # dummy test data
 # with open('json_test_files/monsterandskill_example.json') as json_file:
