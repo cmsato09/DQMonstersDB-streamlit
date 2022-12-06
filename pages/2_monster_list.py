@@ -10,6 +10,9 @@ API_BASE = "http://localhost:8000"
 API_GET_MONSTER_LIST = API_BASE + "/dqm1/monsters/"
 monster_list = get_json_data(API_GET_MONSTER_LIST)
 
+st.set_page_config(page_title="Monster List", layout="centered",
+                       initial_sidebar_state="collapsed")
+
 st.markdown("## Monster List")
 name_search = st.text_input("Search by Name")
 family_search = st.selectbox("Search by Family",

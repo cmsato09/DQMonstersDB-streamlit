@@ -6,6 +6,10 @@ API_BASE = "http://localhost:8000"
 API_GET_MONSTER_LIST = API_BASE + "/dqm1/monstersandskill/"
 API_GET_BREEDING_COMBO = API_BASE + "/breeding/"
 
+
+st.set_page_config(page_title="Monster Detail", layout="centered",
+                       initial_sidebar_state="collapsed")
+
 st.markdown("## Monster Detail Info Page Example")
 
 params = st.experimental_get_query_params()
