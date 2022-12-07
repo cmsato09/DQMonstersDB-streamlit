@@ -15,7 +15,7 @@ class APINames:
 @st.cache
 def _get_json_data(endpoint):
     """
-    Gets relevant JSON data from FastAPI endpoint
+    Gets relevant JSON data from given FastAPI endpoint
     """
     response = requests.get(endpoint)
     response.raise_for_status()
@@ -23,8 +23,25 @@ def _get_json_data(endpoint):
 
 
 @st.cache
-def get_monster_list(endpoint: str) -> list[dict]:
-    return _get_json_data(endpoint)
+def get_monster_list() -> list[dict]:
+    return _get_json_data(APINames.API_GET_MONSTER_LIST)
+
+
+@st.cache
+def get_monster(monster_id) -> list[dict]:
+    return _get_json_data(APINames.API_GET_MONSTER + str(int(monster_id)))
+
+
+@st.cache
+def get_breeding_results(monster_id) -> list[dict]:
+    return _get_json_data(
+        APINames.API_GET_BREEDING_COMBO + str(int(monster_id))
+    )
+
+
+@st.cache
+def get_skills_list() -> list[dict]:
+    return _get_json_data(APINames.API_GET_SKILLS_LIST)
 
 
 @st.cache
