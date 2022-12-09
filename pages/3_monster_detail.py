@@ -1,5 +1,5 @@
 import streamlit as st
-from helper_functions import APINames, _get_json_data
+from helper_functions import get_monster, get_breeding_results
 
 st.markdown("## Monster Detail Info Page Example")
 
@@ -13,8 +13,8 @@ else:
     )
 
 if monster_id:
-    monster_data = _get_json_data(APINames.API_GET_MONSTER + str(int(monster_id)))
-    breeding_data = _get_json_data(APINames.API_GET_BREEDING_COMBO + str(int(monster_id)))
+    monster_data = get_monster(monster_id)
+    breeding_data = get_breeding_results(monster_id)
 
 # dummy test data
 # with open('json_test_files/monsterandskill_example.json') as json_file:

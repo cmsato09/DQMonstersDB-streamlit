@@ -1,7 +1,7 @@
 import streamlit as st
-from helper_functions import APINames, _get_json_data
+from helper_functions import get_skills_list
 
 st.markdown("## Skills Table")
 
-skill_data = _get_json_data(APINames.API_GET_SKILLS_LIST)
+skill_data = get_skills_list()
 st.dataframe(skill_data)
