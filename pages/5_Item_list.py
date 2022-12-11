@@ -6,6 +6,10 @@ from helper_functions import get_items_list
 # with open('json_test_files/items_dummy_data.json') as json_file:
 #     item_data = pd.read_json(json_file)
 
+# TODO refactor hide_table_row into separate function in helper_function.py
+# TODO refactor df reformatting lines into a separate function
+# TODO refactor page configuration into function (?)
+
 if __name__ == "__main__":
     item_data = get_items_list()
     df = pd.DataFrame(item_data)
