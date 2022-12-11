@@ -15,14 +15,15 @@ if __name__ == "__main__":
                                      options=df["item_category"].unique(),)
     shop_search = st.multiselect(label="Search by category",
                                  options=df["sell_location"].unique(),)
-    if category_search:
-        df = df.query("item_category == @category_search")
-    elif shop_search:
-        df = df.query("sell_location == @shop_search")
-    elif category_search and shop_search:
+
+    if category_search and shop_search:
         df = df.query(
             "item_category == @category_search & sell_location == @shop_search"
         )
+    elif category_search:
+        df = df.query("item_category == @category_search")
+    elif shop_search:
+        df = df.query("sell_location == @shop_search")
 
     hide_table_row_index = """
                 <style>
@@ -39,9 +40,9 @@ if __name__ == "__main__":
             'sell_price': 'SELL PRICE', 'sell_location': 'SHOP'},
         inplace=True)
 
-    df = df.fillna(0)
-    df['PRICE'] = df['PRICE'].astype(int)
-    df['SELL PRICE'] = df['SELL PRICE'].astype(int)
+    # df = df.fillna(0)
+    df['PRICE'] = df['PRICE'].astype('Int64')
+    df['SELL PRICE'] = df['SELL PRICE'].astype('Int64')
 
     item_selection = df[['ITEM', 'CATEGORY', 'DESCRIPTION', 'PRICE',
                          'SELL PRICE', 'SHOP']]
