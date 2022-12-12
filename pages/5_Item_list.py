@@ -21,9 +21,7 @@ def reformat_items_df(json_data):
 
 def query_item_data(df):
     if category_search and shop_search:
-        df = df.query(
-            "CATEGORY == @category_search & SHOP == @shop_search"
-        )
+        df = df.query("CATEGORY == @category_search & SHOP == @shop_search")
     elif category_search:
         df = df.query("CATEGORY == @category_search")
     elif shop_search:
