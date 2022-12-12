@@ -2,35 +2,11 @@ import streamlit as st
 import pandas as pd
 from helper_functions import get_items_list, hide_table_index
 
-# dummy data test
-# with open('json_test_files/items_dummy_data.json') as json_file:
-#     item_data = pd.read_json(json_file)
-
-# TODO refactor hide_table_row into separate function in helper_function.py
-# TODO refactor df reformatting lines into a separate function
 # TODO refactor page configuration into function (?)
 
-if __name__ == "__main__":
-    item_data = get_items_list()
-    df = pd.DataFrame(item_data)
 
-    st.markdown("## Items Table")
-    category_search = st.multiselect(label="Search by category",
-                                     options=df["item_category"].unique(),)
-    shop_search = st.multiselect(label="Search by category",
-                                 options=df["sell_location"].unique(),)
-
-    if category_search and shop_search:
-        df = df.query(
-            "item_category == @category_search & sell_location == @shop_search"
-        )
-    elif category_search:
-        df = df.query("item_category == @category_search")
-    elif shop_search:
-        df = df.query("sell_location == @shop_search")
-
-    hide_table_index()
-
+def reformat_items_df(json_data):
+    df = pd.DataFrame(json_data)
     df.rename(
         columns={
             'item_name': 'ITEM', 'item_category': 'CATEGORY',
@@ -38,10 +14,36 @@ if __name__ == "__main__":
             'sell_price': 'SELL PRICE', 'sell_location': 'SHOP'},
         inplace=True)
 
-    # df = df.fillna(0)
-    df['PRICE'] = df['PRICE'].astype('Int64')
-    df['SELL PRICE'] = df['SELL PRICE'].astype('Int64')
+    df = df.astype({'PRICE': 'Int64', 'SELL PRICE': 'Int64'})
+    df = df[['ITEM', 'CATEGORY', 'DESCRIPTION', 'PRICE', 'SELL PRICE', 'SHOP']]
+    return df
 
-    item_selection = df[['ITEM', 'CATEGORY', 'DESCRIPTION', 'PRICE',
-                         'SELL PRICE', 'SHOP']]
-    st.table(item_selection)
+
+def query_item_data(df):
+    if category_search and shop_search:
+        df = df.query(
+            "CATEGORY == @category_search & SHOP == @shop_search"
+        )
+    elif category_search:
+        df = df.query("CATEGORY == @category_search")
+    elif shop_search:
+        df = df.query("SHOP == @shop_search")
+
+    return df
+
+
+if __name__ == "__main__":
+    item_data = get_items_list()
+    item_data = reformat_items_df(item_data)
+
+    st.markdown("## Items Table")
+    category_search = st.multiselect(label="Search by category",
+                                     options=item_data['CATEGORY'].unique(),)
+    shop_search = st.multiselect(label="Search by category",
+                                 options=item_data['SHOP'].unique(),)
+
+    item_data = query_item_data(item_data)
+
+    hide_table_index()
+
+    st.table(item_data)
