@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from helper_functions import get_items_list
+from helper_functions import get_items_list, hide_table_index
 
 # dummy data test
 # with open('json_test_files/items_dummy_data.json') as json_file:
@@ -29,13 +29,7 @@ if __name__ == "__main__":
     elif shop_search:
         df = df.query("sell_location == @shop_search")
 
-    hide_table_row_index = """
-                <style>
-                thead tr th:first-child {display:none}
-                tbody th {display:none}
-                </style>
-                """
-    st.markdown(hide_table_row_index, unsafe_allow_html=True)
+    hide_table_index()
 
     df.rename(
         columns={

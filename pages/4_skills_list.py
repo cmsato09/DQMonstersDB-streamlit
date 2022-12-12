@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from helper_functions import get_skills_list
+from helper_functions import get_skills_list, hide_table_index
 
 # TODO add skill hyperlink to skill_detail page
 # TODO refactor page configuration into function (?)
@@ -22,12 +22,5 @@ if __name__ == "__main__":
                                      options=skill_data["category_type"].unique())
     shop_search = st.multiselect(label="Search by family type",
                                  options=skill_data["family_type"].unique())
-    hide_table_row_index = """
-                    <style>
-                    thead tr th:first-child {display:none}
-                    tbody th {display:none}
-                    </style>
-                    """
-    st.markdown(hide_table_row_index, unsafe_allow_html=True)
-
+    hide_table_index()
     st.table(skill_data)

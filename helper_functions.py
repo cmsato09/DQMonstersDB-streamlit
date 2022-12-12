@@ -12,6 +12,19 @@ class APINames:
     API_GET_ITEMS_LIST = API_BASE + "/dqm1/items/"
 
 
+def hide_table_index():
+    """
+    hides row indices when displaying a dataframe with st.table or st.dataframe
+    """
+    hide_table_row_index = """
+                    <style>
+                    thead tr th:first-child {display:none}
+                    tbody th {display:none}
+                    </style>
+                    """
+    st.markdown(hide_table_row_index, unsafe_allow_html=True)
+
+
 @st.cache
 def _get_json_data(endpoint):
     """
