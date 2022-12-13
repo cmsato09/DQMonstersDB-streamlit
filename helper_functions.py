@@ -57,8 +57,8 @@ def get_skills_list() -> list[dict]:
 
 
 @st.cache
-def get_skill_detail(skill_id) -> list[dict]:
-    return _get_json_data(f"{APINames.API_GET_SKILL_DETAIL}{skill_id}")
+def get_skill_detail(skill_id) -> dict:
+    return _get_json_data(f"{APINames.API_GET_SKILL}{skill_id}")
 
 
 @st.cache
