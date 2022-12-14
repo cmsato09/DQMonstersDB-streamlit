@@ -12,7 +12,8 @@ def reformat_items_df(json_data):
             'item_name': 'ITEM', 'item_category': 'CATEGORY',
             'item_description': 'DESCRIPTION', 'price': 'PRICE',
             'sell_price': 'SELL PRICE', 'sell_location': 'SHOP'},
-        inplace=True)
+        inplace=True
+    )
 
     df = df.astype({'PRICE': 'Int64', 'SELL PRICE': 'Int64'})
     df = df[['ITEM', 'CATEGORY', 'DESCRIPTION', 'PRICE', 'SELL PRICE', 'SHOP']]
