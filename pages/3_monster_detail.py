@@ -41,13 +41,23 @@ partner_column.markdown("##### Partner")
 
 for combo_entry in breeding_data:
     if combo_entry['pedigree_id']:
-        pedigree_column.write(combo_entry['pedigree']['old_name'])
+        idx = combo_entry['pedigree']['id']
+        name = combo_entry['pedigree']['old_name']
+        pedigree_column.write(
+            f"<a target='_self' href='monster_detail?id={idx}'>{name}</a>",
+            unsafe_allow_html=True
+        )
     else:
         pedigree_column.write(
             combo_entry['pedigree_family']['family_eng'] + " FAMILY"
         )
 
     if combo_entry['parent2_id']:
-        partner_column.write(combo_entry['parent2']['old_name'])
+        idx = combo_entry['parent2']['id']
+        name = combo_entry['parent2']['old_name']
+        partner_column.write(
+            f"<a target='_self' href='monster_detail?id={idx}'>{name}</a>",
+            unsafe_allow_html=True
+        )
     else:
         partner_column.write(combo_entry['family2']['family_eng'] + " FAMILY")
