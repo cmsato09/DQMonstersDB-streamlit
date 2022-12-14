@@ -1,6 +1,8 @@
 import streamlit as st
 from helper_functions import get_skill_detail
 
+# TODO - refactor to make it more readable. make functions to chunk lines
+
 st.markdown('## Skill Detail Info Page Example')
 
 params = st.experimental_get_query_params()

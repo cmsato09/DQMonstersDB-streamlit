@@ -18,29 +18,28 @@ if monster_id:
     monster_data = get_monster(monster_id)
     breeding_data = get_breeding_results(monster_id)
 
-# dummy test data
-# with open('json_test_files/monsterandskill_example.json') as json_file:
-#     monster_data = json.load(json_file)
-
 st.image("https://lh3.googleusercontent.com/cdNCaeyTOJ1ynJkTn9-wpZJIAFHiej1-DGvGHq1us3JTPwZtcII7bbUBr0Fpaqhh8pIXBou2__z-I1yPc85mBS-EYuoTnDNRZHaT3sxU81T6=w200-s0")
 st.caption("Image is a placeholder")
 
 # Monster Info
-st.write(f"Game Name: {monster_data['old_name']}")
-st.write(f"Updated Name: {monster_data['new_name']}")
-st.write(f"Family: {monster_data['family']['family_eng']}")
-st.write(f"Description: {monster_data['description']}")
+st.write("##### Basic Info")
+st.write(f"Game Name : **{monster_data['old_name']}**")
+st.write(f"Updated Name : {monster_data['new_name']}")
+st.write(f"Family : {monster_data['family']['family_eng']}")
+st.write(f"Description : {monster_data['description']}")
+st.write('\n')
 
-#  want these texts to hyperlink to skill table
-st.write(f"Skills: ")
+st.write("##### Skills")
 for skill in monster_data['skills']:
     st.write(
             f"<a target='_blank' href='skill_detail?id={skill['id']}'>"
             f"{skill['old_name']}</a> -- {skill['description']}",
             unsafe_allow_html=True
         )
+st.write('\n')
 
 #  Start of Breeding Combo Table
+st.write("##### Breeding Combinations")
 pedigree_column, partner_column = st.columns(2)
 pedigree_column.markdown("##### Pedigree")
 partner_column.markdown("##### Partner")
