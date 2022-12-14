@@ -6,8 +6,15 @@ from helper_functions import get_skills_list, hide_table_index
 # TODO refactor page configuration into function (?)
 
 
+def make_clickable(skill_id, skill_name):
+    return f'<a target="_blank" href="skill_detail?id={skill_id}">{skill_name}</a>'
+
+
 def reformat_skills_df(json_data):
     df = pd.DataFrame(json_data)
+    # df['old_name'] = df['old_name'].apply(
+    #     make_clickable(df['id'], df['old_name']))
+
     df = df[['old_name', 'category_type', 'family_type', 'description',
              'mp_cost', 'required_level', 'required_hp', 'required_mp',
              'required_attack', 'required_defense', 'required_speed',

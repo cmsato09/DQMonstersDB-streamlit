@@ -1,6 +1,8 @@
 import streamlit as st
 from helper_functions import get_monster, get_breeding_results
 
+# TODO refactor to make it readable
+
 st.markdown("## Monster Detail Info Page Example")
 
 params = st.experimental_get_query_params()
@@ -30,9 +32,13 @@ st.write(f"Family: {monster_data['family']['family_eng']}")
 st.write(f"Description: {monster_data['description']}")
 
 #  want these texts to hyperlink to skill table
-st.write(f"Skills: {monster_data['skills'][0]['old_name']}, "
-         f"{monster_data['skills'][1]['old_name']}, "
-         f"{monster_data['skills'][2]['old_name']} ")
+st.write(f"Skills: ")
+for skill in monster_data['skills']:
+    st.write(
+            f"<a target='_blank' href='skill_detail?id={skill['id']}'>"
+            f"{skill['old_name']}</a> -- {skill['description']}",
+            unsafe_allow_html=True
+        )
 
 #  Start of Breeding Combo Table
 pedigree_column, partner_column = st.columns(2)
