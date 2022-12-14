@@ -2,20 +2,18 @@ import streamlit as st
 import pandas as pd
 from helper_functions import get_skills_list, hide_table_index
 
-# TODO add skill hyperlink to skill_detail page
 # TODO refactor page configuration into function (?)
 
 
-def make_clickable(skill_id, skill_name):
-    return f'<a target="_blank" href="skill_detail?id={skill_id}">{skill_name}</a>'
+def make_clickable(idx, name):
+    return f'<a target="_blank" href="skill_detail?id={idx}">{name}</a>'
 
 
 def reformat_skills_df(json_data):
     df = pd.DataFrame(json_data)
-    # df['old_name'] = df['old_name'].apply(
-    #     make_clickable(df['id'], df['old_name']))
+    df['link'] = df.apply(lambda x: make_clickable(x['id'], x['old_name']), axis=1)
 
-    df = df[['old_name', 'category_type', 'family_type', 'description',
+    df = df[['link', 'category_type', 'family_type', 'description',
              'mp_cost', 'required_level', 'required_hp', 'required_mp',
              'required_attack', 'required_defense', 'required_speed',
              'required_intelligence']]
@@ -52,4 +50,5 @@ if __name__ == "__main__":
 
     skill_data = query_skill_data(skill_data)
     hide_table_index()
-    st.table(skill_data)
+    # TODO: table too wide now, apply css?
+    st.write(skill_data.to_html(escape=False, index=False), unsafe_allow_html=True)
