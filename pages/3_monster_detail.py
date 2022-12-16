@@ -1,5 +1,5 @@
 import streamlit as st
-from helper_functions import get_monster, get_breeding_results
+from helper_functions import get_monster, get_breeding_results, APINames
 
 # TODO refactor to make it readable
 
@@ -18,8 +18,7 @@ if monster_id:
     monster_data = get_monster(monster_id)
     breeding_data = get_breeding_results(monster_id)
 
-st.image("https://lh3.googleusercontent.com/cdNCaeyTOJ1ynJkTn9-wpZJIAFHiej1-DGvGHq1us3JTPwZtcII7bbUBr0Fpaqhh8pIXBou2__z-I1yPc85mBS-EYuoTnDNRZHaT3sxU81T6=w200-s0")
-st.caption("Image is a placeholder")
+st.image(f"{APINames.API_GET_MONSTER_IMAGE}{monster_data['old_name']}.png")
 
 # Monster Info
 st.write("##### Basic Info")
