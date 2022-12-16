@@ -18,6 +18,6 @@ if __name__ == "__main__":
         unsafe_allow_html=True
     )
     st.write(
-        f"<a target='_self' href='/Item_list'> Item List </a>",
+        f"<a target='_self' href='/item_list'> Item List </a>",
         unsafe_allow_html=True
     )

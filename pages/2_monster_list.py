@@ -28,12 +28,12 @@ def reformat_monster_list(json_data):
 
 def query_monster_list(df, name_search, family_search):
     if name_search and family_search:
-        df = df[df['NAME'].str.lower().str.contains(name_search.lower())]
-        df = df.query("FAMILY == @family_search")
+        df = df[(df['NAME'].str.lower().str.contains(name_search.lower())) &
+                (df['FAMILY'] == family_search)]
     elif name_search:
         df = df[df['NAME'].str.lower().str.contains(name_search.lower())]
     elif family_search:
-        df = df.query("FAMILY == @family_search")
+        df = df[df['FAMILY'] == family_search]
     return df
 
 
