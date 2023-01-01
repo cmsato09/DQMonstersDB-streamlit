@@ -7,7 +7,7 @@ class APINames:
     API_BASE = "https://em4lp8.deta.dev"
     API_GET_MONSTER_LIST = API_BASE + "/dqm1/monsters/"
     API_GET_MONSTER = API_BASE + "/dqm1/monstersandskill/"
-    API_GET_BREEDING_COMBO = API_BASE + "/breeding/"
+    API_GET_BREEDING_COMBO = API_BASE + "/dqm1/breeding/"
     API_GET_SKILLS_LIST = API_BASE + "/dqm1/skills/"
     API_GET_SKILL = API_GET_SKILLS_LIST
     API_GET_ITEMS_LIST = API_BASE + "/dqm1/items/"
