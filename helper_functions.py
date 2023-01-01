@@ -11,6 +11,7 @@ class APINames:
     API_GET_SKILLS_LIST = API_BASE + "/dqm1/skills/"
     API_GET_SKILL = API_GET_SKILLS_LIST
     API_GET_ITEMS_LIST = API_BASE + "/dqm1/items/"
+    API_GET_MONSTER_IMAGE = API_BASE + "/static/images/dqm1monsters/"
 
 
 def hide_table_index():
