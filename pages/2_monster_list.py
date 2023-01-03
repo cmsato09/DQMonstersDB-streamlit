@@ -1,29 +1,64 @@
+import pandas as pd
 import streamlit as st
-from helper_functions import APINames, get_monster_list
+from helper_functions import get_monster_list, hide_table_index
 
-# dummy data with test files
-# with open('json_test_files/read_monsters.json') as json_file:
-#     monster_list = json.load(json_file)
 
-# FastAPI connection
-monster_list = get_monster_list(APINames.API_GET_MONSTER_LIST)
+def make_clickable_monster_name(idx, name):
+    return f'<a target="_blank" href="monster_detail?id={idx}">{name}</a>'
 
-st.markdown("## Monster List")
-name_search = st.text_input("Search by Name")
-family_search = st.selectbox("Search by Family",
-                             ['SLIME', 'DRAGON', 'BEAST', 'BIRD', 'PLANT',
-                              'BUG', 'DEVIL', 'UNDEAD', 'MATERIAL', '???'])
 
-# Set up column table
-name_column, family_column = st.columns(2)
-name_column.subheader('Monster Name')
-family_column.subheader('Family Type')
+def reformat_monster_list(json_data):
+    df = pd.json_normalize(json_data)
 
-for monster in monster_list:
-    idx = monster['id']
-    name = monster['old_name']
-    name_column.write(
-        f"<a target='_self' href='monster_detail?id={idx}'>{name}</a>",
-        unsafe_allow_html=True
+    # creates hyperlinkable name text
+    df['link'] = df.apply(
+        lambda x: make_clickable_monster_name(x['id'], x['old_name']), axis=1
     )
-    family_column.write(monster['family']['family_eng'])
+
+    df.rename(
+        columns={
+            'link': 'NAME',
+            'family.family_eng': 'FAMILY'
+        },
+        inplace=True
+    )
+    df = df[['NAME', 'FAMILY']]
+    return df
+
+
+def query_monster_list(df, name_search, family_search):
+    if name_search and family_search:
+        df = df[(df['NAME'].str.lower().str.contains(name_search.lower())) &
+                (df['FAMILY'] == family_search)]
+    elif name_search:
+        df = df[df['NAME'].str.lower().str.contains(name_search.lower())]
+    elif family_search:
+        df = df[df['FAMILY'] == family_search]
+    return df
+
+
+if __name__ == "__main__":
+    monster_list = get_monster_list()
+    monster_list = reformat_monster_list(monster_list)
+
+    st.markdown("## Monster List")
+    name_searchbox = st.text_input("Search by Name")
+    family_searchbox = st.selectbox(label="Search by Family",
+                                    options=['', 'SLIME', 'DRAGON', 'BEAST',
+                                             'BIRD', 'PLANT', 'BUG', 'DEVIL',
+                                             'UNDEAD', 'MATERIAL', '???']
+                                    )
+
+    monster_list = query_monster_list(monster_list, name_searchbox,
+                                      family_searchbox)
+    hide_table_index()
+
+    name_column, family_column = st.columns(2)
+    name_column.write("##### **NAME**")
+    family_column.write("##### **FAMILY**")
+
+    # st.writing a df gives adjustable column width instead of a fixed width
+    # column, therefore iterating through dataframe
+    for index, info in monster_list.iterrows():
+        name_column.write(info[0], unsafe_allow_html=True)
+        family_column.write(info[1])
