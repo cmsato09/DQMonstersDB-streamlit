@@ -1,0 +1,244 @@
+[
+  {
+    "child_id": 6,
+    "pedigree_id": null,
+    "parent2_id": null,
+    "pedigree_family_id": 1,
+    "family2_id": 7,
+    "id": 6,
+    "child": {
+      "new_name": "Slime Knight",
+      "old_name": "SlimeNite",
+      "description": "The knight riding on this slime is part of it's body",
+      "family_id": 1,
+      "id": 6
+    },
+    "pedigree": null,
+    "parent2": null,
+    "pedigree_family": {
+      "family_eng": "SLIME",
+      "id": 1
+    },
+    "family2": {
+      "family_eng": "DEVIL",
+      "id": 7
+    }
+  },
+  {
+    "child_id": 13,
+    "pedigree_id": 6,
+    "parent2_id": 28,
+    "pedigree_family_id": null,
+    "family2_id": null,
+    "id": 31,
+    "child": {
+      "new_name": "Cyber slime",
+      "old_name": "SlimeBorg",
+      "description": "Oil flows through its body instead of blood",
+      "family_id": 1,
+      "id": 13
+    },
+    "pedigree": {
+      "new_name": "Slime Knight",
+      "old_name": "SlimeNite",
+      "description": "The knight riding on this slime is part of it's body",
+      "family_id": 1,
+      "id": 6
+    },
+    "parent2": {
+      "new_name": "Swordgon",
+      "old_name": "Swordgon",
+      "description": "Its body is covered with sword-like spikes",
+      "family_id": 2,
+      "id": 28
+    },
+    "pedigree_family": null,
+    "family2": null
+  },
+  {
+    "child_id": 13,
+    "pedigree_id": 6,
+    "parent2_id": 37,
+    "pedigree_family_id": null,
+    "family2_id": null,
+    "id": 32,
+    "child": {
+      "new_name": "Cyber slime",
+      "old_name": "SlimeBorg",
+      "description": "Oil flows through its body instead of blood",
+      "family_id": 1,
+      "id": 13
+    },
+    "pedigree": {
+      "new_name": "Slime Knight",
+      "old_name": "SlimeNite",
+      "description": "The knight riding on this slime is part of it's body",
+      "family_id": 1,
+      "id": 6
+    },
+    "parent2": {
+      "new_name": "Tortoceratops",
+      "old_name": "Spikerous",
+      "description": "Its spiky hard shell protects itself from danger",
+      "family_id": 2,
+      "id": 37
+    },
+    "pedigree_family": null,
+    "family2": null
+  },
+  {
+    "child_id": 13,
+    "pedigree_id": 6,
+    "parent2_id": 38,
+    "pedigree_family_id": null,
+    "family2_id": null,
+    "id": 33,
+    "child": {
+      "new_name": "Cyber slime",
+      "old_name": "SlimeBorg",
+      "description": "Oil flows through its body instead of blood",
+      "family_id": 1,
+      "id": 13
+    },
+    "pedigree": {
+      "new_name": "Slime Knight",
+      "old_name": "SlimeNite",
+      "description": "The knight riding on this slime is part of it's body",
+      "family_id": 1,
+      "id": 6
+    },
+    "parent2": {
+      "new_name": "Great dragon",
+      "old_name": "GreatDrak",
+      "description": "The biggest dragon in the dragon family",
+      "family_id": 2,
+      "id": 38
+    },
+    "pedigree_family": null,
+    "family2": null
+  },
+  {
+    "child_id": 13,
+    "pedigree_id": 6,
+    "parent2_id": 43,
+    "pedigree_family_id": null,
+    "family2_id": null,
+    "id": 34,
+    "child": {
+      "new_name": "Cyber slime",
+      "old_name": "SlimeBorg",
+      "description": "Oil flows through its body instead of blood",
+      "family_id": 1,
+      "id": 13
+    },
+    "pedigree": {
+      "new_name": "Slime Knight",
+      "old_name": "SlimeNite",
+      "description": "The knight riding on this slime is part of it's body",
+      "family_id": 1,
+      "id": 6
+    },
+    "parent2": {
+      "new_name": "Hacksaurus",
+      "old_name": "BattleRex",
+      "description": "Attacks by swinging its powerful giant ax",
+      "family_id": 2,
+      "id": 43
+    },
+    "pedigree_family": null,
+    "family2": null
+  },
+  {
+    "child_id": 13,
+    "pedigree_id": 6,
+    "parent2_id": 44,
+    "pedigree_family_id": null,
+    "family2_id": null,
+    "id": 35,
+    "child": {
+      "new_name": "Cyber slime",
+      "old_name": "SlimeBorg",
+      "description": "Oil flows through its body instead of blood",
+      "family_id": 1,
+      "id": 13
+    },
+    "pedigree": {
+      "new_name": "Slime Knight",
+      "old_name": "SlimeNite",
+      "description": "The knight riding on this slime is part of it's body",
+      "family_id": 1,
+      "id": 6
+    },
+    "parent2": {
+      "new_name": "Ethereal serpent",
+      "old_name": "Skydragon",
+      "description": "Floats freely in midair with its magical powers",
+      "family_id": 2,
+      "id": 44
+    },
+    "pedigree_family": null,
+    "family2": null
+  },
+  {
+    "child_id": 185,
+    "pedigree_id": 197,
+    "parent2_id": 6,
+    "pedigree_family_id": null,
+    "family2_id": null,
+    "id": 860,
+    "child": {
+      "new_name": "Pocus poppet",
+      "old_name": "Voodoll",
+      "description": "A clay doll brought to life",
+      "family_id": 9,
+      "id": 185
+    },
+    "pedigree": {
+      "new_name": "Golem",
+      "old_name": "Golem",
+      "description": "A stack of rock bricks that came to life",
+      "family_id": 9,
+      "id": 197
+    },
+    "parent2": {
+      "new_name": "Slime Knight",
+      "old_name": "SlimeNite",
+      "description": "The knight riding on this slime is part of it's body",
+      "family_id": 1,
+      "id": 6
+    },
+    "pedigree_family": null,
+    "family2": null
+  },
+  {
+    "child_id": 185,
+    "pedigree_id": 198,
+    "parent2_id": 6,
+    "pedigree_family_id": null,
+    "family2_id": null,
+    "id": 864,
+    "child": {
+      "new_name": "Pocus poppet",
+      "old_name": "Voodoll",
+      "description": "A clay doll brought to life",
+      "family_id": 9,
+      "id": 185
+    },
+    "pedigree": {
+      "new_name": "Living statue",
+      "old_name": "StoneMan",
+      "description": "A statue made from rock that came to life",
+      "family_id": 9,
+      "id": 198
+    },
+    "parent2": {
+      "new_name": "Slime Knight",
+      "old_name": "SlimeNite",
+      "description": "The knight riding on this slime is part of it's body",
+      "family_id": 1,
+      "id": 6
+    },
+    "pedigree_family": null,
+    "family2": null
+  }
+]

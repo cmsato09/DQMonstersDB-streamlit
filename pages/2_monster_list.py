@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+from st_aggrid import AgGrid
 from helper_functions import get_monster_list, hide_table_index
 
 
@@ -53,12 +54,7 @@ if __name__ == "__main__":
                                       family_searchbox)
     hide_table_index()
 
-    name_column, family_column = st.columns(2)
-    name_column.write("##### **NAME**")
-    family_column.write("##### **FAMILY**")
-
-    # st.writing a df gives adjustable column width instead of a fixed width
-    # column, therefore iterating through dataframe
-    for index, info in monster_list.iterrows():
-        name_column.write(info[0], unsafe_allow_html=True)
-        family_column.write(info[1])
+    st.write(
+        monster_list.to_html(escape=False, index=True),
+        unsafe_allow_html=True
+    )
