@@ -44,18 +44,12 @@ if __name__ == "__main__":
     st.write("Required stats to learn skill")
 
     lvl = skill_data['required_level']
-    hp = skill_data['required_hp'] \
-        if skill_data['required_hp'] is not None else ""
-    mp = skill_data['required_mp'] \
-        if skill_data['required_mp'] is not None else ""
-    atk = skill_data['required_attack'] \
-        if skill_data['required_attack'] is not None else ""
-    defense = skill_data['required_defense'] \
-        if skill_data['required_defense'] is not None else ""
-    spd = skill_data['required_speed'] \
-        if skill_data['required_speed'] is not None else ""
-    intel = skill_data['required_intelligence'] \
-        if skill_data['required_intelligence'] is not None else ""
+    hp = skill_data['required_hp'] or ""
+    mp = skill_data['required_mp'] or ""
+    atk = skill_data['required_attack'] or ""
+    defense = skill_data['required_defense'] or ""
+    spd = skill_data['required_speed'] or ""
+    intel = skill_data['required_intelligence'] or ""
 
     st.markdown(
         f"Level | HP  | MP | ATK | DEF     | AGL | INT  \n"
