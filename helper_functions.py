@@ -3,8 +3,8 @@ import streamlit as st
 
 
 class APINames:
-    API_BASE = "http://localhost:8000"
-    # API_BASE = "https://em4lp8.deta.dev"
+    # API_BASE = "http://localhost:8000"
+    API_BASE = "https://em4lp8.deta.dev"
     API_GET_MONSTER_LIST = API_BASE + "/dqm1/monsters/"
     API_GET_MONSTER = API_BASE + "/dqm1/monstersandskill/"
     API_GET_BREEDING_COMBO = API_BASE + "/dqm1/breeding/"
