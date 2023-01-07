@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-from st_aggrid import AgGrid
 from helper_functions import get_monster_list, hide_table_index
 
 
