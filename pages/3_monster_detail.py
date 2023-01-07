@@ -1,7 +1,11 @@
 import pandas as pd
 import streamlit as st
-from helper_functions import get_monster, get_breeding_results, APINames, \
+from helper_functions import (
+    get_monster,
+    get_breeding_results,
+    APINames,
     hide_table_index
+)
 
 
 def make_clickable_monster_name(idx, name):
@@ -92,8 +96,8 @@ if __name__ == "__main__":
     st.write("##### Breeding Combinations")
 
     hide_table_index()
-
+    breed_data_df = reformat_breeding_list(breeding_data, monster_data['id'])
     st.write(
-        reformat_breeding_list(breeding_data, monster_data['id']).to_html(escape=False, index=True),
+        breed_data_df.to_html(escape=False, index=True),
         unsafe_allow_html=True
     )
