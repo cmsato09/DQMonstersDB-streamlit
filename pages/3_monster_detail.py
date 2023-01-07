@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
     params = st.experimental_get_query_params()
     if "id" in params:
-        monster_id = params["id"][0]
+        monster_id = int(params["id"][0])
     else:
         monster_id = st.number_input(
             label="Input monster ID",
@@ -96,7 +96,7 @@ if __name__ == "__main__":
     st.write("##### Breeding Combinations")
 
     hide_table_index()
-    breed_data_df = reformat_breeding_list(breeding_data, monster_data['id'])
+    breed_data_df = reformat_breeding_list(breeding_data, monster_id)
     st.write(
         breed_data_df.to_html(escape=False, index=True),
         unsafe_allow_html=True
