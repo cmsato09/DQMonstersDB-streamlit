@@ -34,8 +34,16 @@ This way I can get feedback about the data being displayed.
 I am planning on eventually learning more about frontend using React and 
 remaking the frontend.
 
+## How to Run
+This repo is deployed on [Streamlit Cloud](https://docs.streamlit.io/streamlit-cloud).
+
+Go to https://dqmonstersdb.streamlit.app to access the app online.
+
+![Homepage](image_readme/streamlit-screenshot-1.jpg)
+![Monster Detail Page](image_readme/streamlit-screenshot-2.jpg)
+
 ## How to Run Locally 
-### Run Streamlit (this repo) locally using hosted FastAPI 
+### Run Streamlit repo locally using hosted FastAPI 
 1. Clone this repo 
 2. In the `helper_functions.py` file, make sure the line
 `API_BASE = "https://em4lp8.deta.dev"` is uncommented.
@@ -64,15 +72,15 @@ this repo onto your local machine.
    local browser. If not, type or copy/paste the address into your 
    browser of choice.
 
-
-## How to Run
-
 ## Resources used to make project
-Streamlit documentation <https://docs.streamlit.io/> 
-and community forum <https://discuss.streamlit.io/> 
-
-## License
+- Streamlit documentation <https://docs.streamlit.io/>
+- community forum <https://discuss.streamlit.io/> 
+- issues tab on the streamlit github repo
+- python [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide) 
 
 ## Credits
-This project is done with help and mentoring by [Bob Belderbos](https://github.com/bbelderbos) 
+This project was done with help and mentoring by [Bob Belderbos](https://github.com/bbelderbos) 
 through the [Pybites Developer Mindset Program](https://pybit.es/catalogue/the-pdm-program/)
+
+Thank you Bob for the support and help for making it fun to learn, struggle 
+through, and just figuring it out.   
