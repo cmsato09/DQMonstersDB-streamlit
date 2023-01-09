@@ -1,23 +1,32 @@
+from typing import List, Dict
 import pandas as pd
 import streamlit as st
 from helper_functions import (
     get_monster,
     get_breeding_results,
     APINames,
-    hide_table_index
+    hide_table_index,
 )
 
 
-def make_clickable_monster_name(idx, name):
+def make_clickable_monster_name(idx: int, name: str) -> str:
+    """
+    HTML hyperlink to specific monster detail page
+    :param idx: monster id as integer
+    :param name: name of monster as string
+    :return: html <a> with href attribute to make hyperlink
+    """
     return f'<a target="_blank" href="monster_detail?id={idx}">{name}</a>'
 
 
-def reformat_breeding_list(json_data, monster_page_id):
+def reformat_breeding_list(json_data: List[Dict],
+                           monster_page_id: int) -> pd.DataFrame:
     """
     makes new reformatted dataframe from breeding data for display
-    :param json_data:
-    :param monster_page_id:
-    :return:
+    :param json_data: JSON data from API
+    :param monster_page_id: monster_id of current page to prevent making a
+    hyperlink back to the same page
+    :return: reformatted data as a dataframe with three columns
     """
 
     reformat_list = []
