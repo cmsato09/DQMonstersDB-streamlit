@@ -27,6 +27,16 @@ def hide_table_index():
     st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
 
+def make_clickable_monster_name(idx: int, name: str) -> str:
+    """
+    HTML hyperlink to specific monster detail page
+    :param idx: monster id as integer
+    :param name: name of monster as string
+    :return: html <a> with href attribute to make hyperlink
+    """
+    return f'<a target="_blank" href="monster_detail?id={idx}">{name}</a>'
+
+
 @st.cache
 def _get_json_data(endpoint):
     """

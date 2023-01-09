@@ -1,10 +1,10 @@
 import pandas as pd
 import streamlit as st
-from helper_functions import get_monster_list, hide_table_index
-
-
-def make_clickable_monster_name(idx, name):
-    return f'<a target="_blank" href="monster_detail?id={idx}">{name}</a>'
+from helper_functions import (
+    get_monster_list,
+    hide_table_index,
+    make_clickable_monster_name,
+)
 
 
 def reformat_monster_list(json_data):

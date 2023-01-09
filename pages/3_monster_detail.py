@@ -6,17 +6,8 @@ from helper_functions import (
     get_breeding_results,
     APINames,
     hide_table_index,
+    make_clickable_monster_name,
 )
-
-
-def make_clickable_monster_name(idx: int, name: str) -> str:
-    """
-    HTML hyperlink to specific monster detail page
-    :param idx: monster id as integer
-    :param name: name of monster as string
-    :return: html <a> with href attribute to make hyperlink
-    """
-    return f'<a target="_blank" href="monster_detail?id={idx}">{name}</a>'
 
 
 def reformat_breeding_list(json_data: List[Dict],
