@@ -41,8 +41,8 @@ def reformat_breeding_list(json_data: List[Dict],
                 entry['PEDIGREE'] = make_clickable_monster_name(temp_id_x,
                                                                 name_x)
         else:
-            entry['PEDIGREE'] = combo['pedigree_family'][
-                                    'family_eng'] + " FAMILY"
+            entry['PEDIGREE'] = combo['pedigree_family']['family_eng'] \
+                                + " FAMILY"
 
         if combo['parent2_id']:
             name_y = combo['parent2']['old_name']
