@@ -46,7 +46,7 @@ Go to https://dqmonstersdb.streamlit.app to access the app online.
 ### Run Streamlit repo locally using hosted FastAPI 
 1. Clone this repo 
 2. In the `helper_functions.py` file, make sure the line
-`API_BASE = "https://em4lp8.deta.dev"` is uncommented.
+`API_BASE = "https://dqmonstersdbapi-1-a1113227.deta.app"` is uncommented.
 3. Run `streamlit run Home.py` in the terminal
 4. The Streamlit app should automatically open http://localhost:8501 on your 
 local browser. If not, type or copy/paste the address into your browser
@@ -56,21 +56,24 @@ of choice.
 1. Clone both FastAPI [repo](https://github.com/cmsato09/DQMonstersDB-API) and 
 this repo onto your local machine. 
 2. Install all dependencies on virtual environment
-3. Locally run FastAPI app
+3. Run `create_database.py` in the terminal to make the sqlite database from 
+the csv files. `database.db` file should be generated.
+4. Locally run FastAPI app
    1. Run `uvicorn main:app` in the terminal
-   2. FastAPI should be running locally at http://127.0.0.1:8000 (this address
-   is equivalent to http://localhost:8000)
+   2. FastAPI should be running locally at http://127.0.0.1:8000 (or 
+   http://localhost:8000)
    3. Go to http://127.0.0.1:8000/docs to access the interactive API 
    documentation using Swagger UI
-4. Locally run Streamlit app
-   1. Open streamlit folder 
+5. Locally run Streamlit app
+   1. Open new terminal for streamlit folder 
    2. In the `helper_functions.py` file, make sure the line pointing to deta,
-   `API_BASE = "https://em4lp8.deta.dev"` is ***commented***, and 
+   `API_BASE = "https://dqmonstersdbapi-1-a1113227.deta.app"` is ***commented***, and 
    `API_BASE = "http://localhost:8000"` is **uncommented**.
    3. Run `streamlit run Home.py` in the terminal
    4. The Streamlit app should automatically open http://localhost:8501 on your 
    local browser. If not, type or copy/paste the address into your 
    browser of choice.
+   5. FastAPI must simultaneously run with the Streamlit app
 
 ## Resources used to make project
 - Streamlit documentation <https://docs.streamlit.io/>
