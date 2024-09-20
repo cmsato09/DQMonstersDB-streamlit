@@ -1,6 +1,6 @@
 import streamlit as st
-from helper_functions import get_skill_detail
 
+from helper_functions import get_skill_detail
 
 if __name__ == "__main__":
     params = st.experimental_get_query_params()
