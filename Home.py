@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 if __name__ == "__main__":
     st.set_page_config(page_title="DQMDB", layout="centered")
     st.markdown("# Dragon Quest Monsters Database")

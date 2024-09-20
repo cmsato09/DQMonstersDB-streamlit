@@ -1,5 +1,6 @@
-import streamlit as st
 import pandas as pd
+import streamlit as st
+
 from helper_functions import get_skills_list, hide_table_index
 
 # TODO refactor page configuration into function (?)

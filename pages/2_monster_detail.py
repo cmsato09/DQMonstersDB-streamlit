@@ -1,10 +1,12 @@
-from typing import List, Dict
+from typing import Dict, List
+
 import pandas as pd
 import streamlit as st
+
 from helper_functions import (
-    get_monster,
-    get_breeding_results,
     APINames,
+    get_breeding_results,
+    get_monster,
     hide_table_index,
     make_clickable_monster_name,
 )
