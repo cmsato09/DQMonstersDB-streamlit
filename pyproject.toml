@@ -8,6 +8,11 @@ dependencies = [
     "streamlit>=1.38.0",
 ]
 
+[tool.uv]
+dev-dependencies = [
+    "pre-commit>=3.8.0",
+]
+
 # TODO fix missing type annotations with mypy strict
 # [tool.mypy]
 # strict = true
