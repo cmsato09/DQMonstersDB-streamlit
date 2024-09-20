@@ -8,6 +8,10 @@ dependencies = [
     "streamlit>=1.38.0",
 ]
 
+# TODO fix missing type annotations with mypy strict
+# [tool.mypy]
+# strict = true
+
 [[tool.mypy.overrides]]
 module = [
     'requests',
