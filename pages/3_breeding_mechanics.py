@@ -9,7 +9,7 @@ st.write(
 )
 
 st.markdown(
-    f"#### Conditions \n"
+    "#### Conditions \n"
     "- Two parent monsters where one is male and the other is female\n"
     "- Both parent monsters must at least be level 10\n"
     "- Have at least 3 monsters in total\n"
