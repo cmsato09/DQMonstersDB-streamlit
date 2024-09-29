@@ -56,7 +56,7 @@ def reformat_breeding_list(json_data: List[Dict], monster_page_id: int) -> pd.Da
 
 
 if __name__ == "__main__":
-    params = st.experimental_get_query_params()
+    params = st.query_params
     if "id" in params:
         monster_id = int(params["id"][0])
     else:

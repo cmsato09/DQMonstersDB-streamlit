@@ -3,7 +3,7 @@ import streamlit as st
 from helper_functions import get_skill_detail
 
 if __name__ == "__main__":
-    params = st.experimental_get_query_params()
+    params = st.query_params
     if "id" in params:
         skill_id = params["id"][0]
     else:
