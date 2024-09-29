@@ -37,7 +37,7 @@ def make_clickable_monster_name(idx: int, name: str) -> str:
     return f'<a target="_blank" href="monster_detail?id={idx}">{name}</a>'
 
 
-@st.cache
+@st.cache_data
 def _get_json_data(endpoint):
     """
     Gets relevant JSON data from given FastAPI endpoint
@@ -47,31 +47,31 @@ def _get_json_data(endpoint):
     return response.json()
 
 
-@st.cache
+@st.cache_data
 def get_monster_list() -> list[dict]:
     return _get_json_data(APINames.API_GET_MONSTER_LIST)
 
 
-@st.cache
+@st.cache_data
 def get_monster(monster_id) -> list[dict]:
     return _get_json_data(f"{APINames.API_GET_MONSTER}{monster_id}")
 
 
-@st.cache
+@st.cache_data
 def get_breeding_results(monster_id) -> list[dict]:
     return _get_json_data(f"{APINames.API_GET_BREEDING_COMBO}{monster_id}")
 
 
-@st.cache
+@st.cache_data
 def get_skills_list() -> list[dict]:
     return _get_json_data(APINames.API_GET_SKILLS_LIST)
 
 
-@st.cache
+@st.cache_data
 def get_skill_detail(skill_id) -> dict:
     return _get_json_data(f"{APINames.API_GET_SKILL}{skill_id}")
 
 
-@st.cache
+@st.cache_data
 def get_items_list() -> list[dict]:
     return _get_json_data(APINames.API_GET_ITEMS_LIST)
