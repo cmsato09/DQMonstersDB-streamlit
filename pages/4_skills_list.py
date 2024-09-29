@@ -14,21 +14,19 @@ def reformat_skills_df(json_data):
     df = pd.DataFrame(json_data)
 
     # creates hyperlinkable text using name of skill
-    df['link'] = df.apply(
-        lambda x: make_clickable(x['id'], x['old_name']), axis=1
-    )
+    df["link"] = df.apply(lambda x: make_clickable(x["id"], x["old_name"]), axis=1)
 
     df.rename(
         columns={
-            'link': 'NAME',
-            'category_type': 'CATEGORY',
-            'family_type': 'FAMILY',
-            'description': 'DESCRIPTION',
-            'mp_cost': 'MP COST'
+            "link": "NAME",
+            "category_type": "CATEGORY",
+            "family_type": "FAMILY",
+            "description": "DESCRIPTION",
+            "mp_cost": "MP COST",
         },
-        inplace=True
+        inplace=True,
     )
-    df = df[['NAME', 'CATEGORY', 'FAMILY', 'DESCRIPTION', 'MP COST']]
+    df = df[["NAME", "CATEGORY", "FAMILY", "DESCRIPTION", "MP COST"]]
 
     return df
 
@@ -36,8 +34,7 @@ def reformat_skills_df(json_data):
 def query_skill_data(df, category_type_search, family_type_search):
     if category_type_search and family_type_search:
         df = df.query(
-            "CATEGORY == @category_type_search & "
-            "FAMILY == @family_type_search"
+            "CATEGORY == @category_type_search & " "FAMILY == @family_type_search"
         )
     elif category_type_search:
         df = df.query("CATEGORY == @category_type_search")
@@ -52,18 +49,16 @@ if __name__ == "__main__":
     skill_data = reformat_skills_df(skill_data)
 
     st.markdown("## Skills Table")
-    category_type_searchbox = \
-        st.multiselect(label="Search by category type",
-                       options=skill_data['CATEGORY'].unique())
-    family_type_searchbox = \
-        st.multiselect(label="Search by family type",
-                       options=skill_data['FAMILY'].unique())
+    category_type_searchbox = st.multiselect(
+        label="Search by category type", options=skill_data["CATEGORY"].unique()
+    )
+    family_type_searchbox = st.multiselect(
+        label="Search by family type", options=skill_data["FAMILY"].unique()
+    )
 
-    skill_data = query_skill_data(skill_data, category_type_searchbox,
-                                  family_type_searchbox)
+    skill_data = query_skill_data(
+        skill_data, category_type_searchbox, family_type_searchbox
+    )
     hide_table_index()
 
-    st.write(
-        skill_data.to_html(escape=False, index=True),
-        unsafe_allow_html=True
-    )
+    st.write(skill_data.to_html(escape=False, index=True), unsafe_allow_html=True)
