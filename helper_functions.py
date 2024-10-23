@@ -4,7 +4,7 @@ import streamlit as st
 
 class APINames:
     # API_BASE = "http://localhost:8000"
-    API_BASE = "https://dqmonstersdbapi-1-a1113227.deta.app"
+    API_BASE = "https://dqmonstersdb-api-743047725852.us-central1.run.app"
     API_GET_MONSTER_LIST = API_BASE + "/dqm1/monsters/"
     API_GET_MONSTER = API_BASE + "/dqm1/monstersandskill/"
     API_GET_BREEDING_COMBO = API_BASE + "/dqm1/breeding/"
