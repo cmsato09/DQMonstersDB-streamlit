@@ -60,4 +60,4 @@ if __name__ == "__main__":
     monster_list = query_monster_list(monster_list, name_searchbox, family_searchbox)
     hide_table_index()
 
-    st.write(monster_list.to_html(escape=False, index=True), unsafe_allow_html=True)
+    st.write(monster_list.to_html(escape=False, index=False), unsafe_allow_html=True)

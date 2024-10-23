@@ -58,7 +58,7 @@ def reformat_breeding_list(json_data: List[Dict], monster_page_id: int) -> pd.Da
 if __name__ == "__main__":
     params = st.query_params
     if "id" in params:
-        monster_id = int(params["id"][0])
+        monster_id = int(params["id"])
     else:
         monster_id = st.number_input(
             label="Input monster ID", min_value=1, max_value=215
@@ -93,4 +93,4 @@ if __name__ == "__main__":
 
     hide_table_index()
     breed_data_df = reformat_breeding_list(breeding_data, monster_id)
-    st.write(breed_data_df.to_html(escape=False, index=True), unsafe_allow_html=True)
+    st.write(breed_data_df.to_html(escape=False, index=False), unsafe_allow_html=True)

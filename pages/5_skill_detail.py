@@ -5,7 +5,7 @@ from helper_functions import get_skill_detail
 if __name__ == "__main__":
     params = st.query_params
     if "id" in params:
-        skill_id = params["id"][0]
+        skill_id = params["id"]
     else:
         skill_id = st.number_input(label="Input skill ID", min_value=1, max_value=154)
 

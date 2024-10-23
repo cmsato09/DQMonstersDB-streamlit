@@ -7,7 +7,7 @@ from helper_functions import get_skills_list, hide_table_index
 
 
 def make_clickable(idx, name):
-    return f'<a target="_blank" href="skill_detail?id={idx}">{name}</a>'
+    return f'<a href="skill_detail?id={idx}">{name}</a>'
 
 
 def reformat_skills_df(json_data):
@@ -61,4 +61,4 @@ if __name__ == "__main__":
     )
     hide_table_index()
 
-    st.write(skill_data.to_html(escape=False, index=True), unsafe_allow_html=True)
+    st.write(skill_data.to_html(escape=False, index=False), unsafe_allow_html=True)
