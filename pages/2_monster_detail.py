@@ -7,7 +7,6 @@ from helper_functions import (
     APINames,
     get_breeding_results,
     get_monster,
-    hide_table_index,
     make_clickable_monster_name,
 )
 
@@ -91,6 +90,6 @@ if __name__ == "__main__":
     #  Start of Breeding Combo Table
     st.write("##### Breeding Combinations")
 
-    hide_table_index()
+    # hide_table_index()
     breed_data_df = reformat_breeding_list(breeding_data, monster_id)
     st.write(breed_data_df.to_html(escape=False, index=False), unsafe_allow_html=True)
