@@ -34,7 +34,7 @@ def make_clickable_monster_name(idx: int, name: str) -> str:
     :param name: name of monster as string
     :return: html <a> with href attribute to make hyperlink
     """
-    return f'<a target="_blank" href="monster_detail?id={idx}">{name}</a>'
+    return f'<a target="_self" href="monster_detail?id={idx}">{name}</a>'
 
 
 @st.cache_data

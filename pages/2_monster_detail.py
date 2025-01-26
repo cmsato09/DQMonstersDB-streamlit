@@ -81,7 +81,7 @@ if __name__ == "__main__":
     st.write("##### Skills")
     for skill in monster_data["skills"]:
         st.write(
-            f"<a target='_blank' href='skill_detail?id={skill['id']}'>"
+            f"<a target='_self' href='skill_detail?id={skill['id']}'>"
             f"{skill['old_name']}</a> -- {skill['description']}",
             unsafe_allow_html=True,
         )
