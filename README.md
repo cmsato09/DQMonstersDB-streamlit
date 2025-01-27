@@ -26,12 +26,8 @@ This repository is the frontend for the DQMonstersDB FastAPI project
 primarily used to build and share data apps quickly. However, it can be used to
 create a quick frontend for anything in python.
 
-This framework was recommended to me to get a mvp out as soon as possible,
-rather than learning Javascript and React from the beginning and get immediate
-feedback about the data being displayed.
-
-I am planning on learning more about frontend using React and
-remaking the frontend.
+This project is a MVP. A ReactJS version is at <https://github.com/cmsato09/DQMonstersDB-React>
+and deployed on [Vercel](https://vercel.com/) at <https://dqmonsters-db.vercel.app/>.
 
 ## How to Run
 This repo is deployed on [Streamlit Cloud](https://docs.streamlit.io/streamlit-cloud).
@@ -39,6 +35,7 @@ This repo is deployed on [Streamlit Cloud](https://docs.streamlit.io/streamlit-c
 Go to https://dqmonstersdb.streamlit.app to access the app online.
 
 ![Homepage](image_readme/streamlit-screenshot-1.jpg)
+
 ![Monster Detail Page](image_readme/streamlit-screenshot-2.jpg)
 
 ## How to Run Locally

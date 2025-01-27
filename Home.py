@@ -22,4 +22,12 @@ if __name__ == "__main__":
         "If accessing this site on a mobile, open the collapsed sidebar by "
         "clicking the arrow on the top left. "
     )
+
+    st.write(
+        "Thank you for visiting this website, I hope this database helps you. "
+        "I created a new and improved version of this website."
+    )
+
+    st.write("CHECK OUT THE NEW WEBSITE AT https://dqmonsters-db.vercel.app")
+
     st.write("All game images property of Square Enix")

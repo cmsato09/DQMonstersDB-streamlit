@@ -7,7 +7,7 @@ from helper_functions import get_skills_list, hide_table_index
 
 
 def make_clickable(idx, name):
-    return f'<a href="skill_detail?id={idx}">{name}</a>'
+    return f'<a target="_self" href="skill_detail?id={idx}">{name}</a>'
 
 
 def reformat_skills_df(json_data):
